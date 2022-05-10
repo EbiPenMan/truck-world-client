@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ebe2d17dba61fd479a01c473434ae01, type: 3}
+  m_Name: TransmissionConfig
+  m_EditorClassIdentifier: 
+  transmissions:
+  - transmissionName: scale
+    transmission: {fileID: 1385247534487210281, guid: 23e632a2230bf6d4db9d24828e4be977, type: 3}
+  - transmissionName: tree
+    transmission: {fileID: 348141167920933651, guid: 8636c3c84215322419ff3067ee48cc94, type: 3}
+  - transmissionName: curtain
+    transmission: {fileID: 4812017248671530816, guid: 9857e6391a62d0e46b310f2db3d0747b, type: 3}

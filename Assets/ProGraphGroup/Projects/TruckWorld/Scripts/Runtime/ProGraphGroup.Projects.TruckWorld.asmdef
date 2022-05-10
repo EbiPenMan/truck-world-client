@@ -1,0 +1,24 @@
+{
+    "name": "ProGraphGroup.Projects.TruckWorld",
+    "rootNamespace": "ProGraphGroup.Projects.TruckWorld",
+    "references": [
+        "ProGraphGroup.General",
+        "UniTask",
+        "RTLTMPro",
+        "UniTask.TextMeshPro",
+        "NakamaRuntime",
+        "NakamaEditor",
+        "UniTask.Linq",
+        "ProGraphGroup.Packages.Utility",
+        "BrunoMikoski.AnimationSequencer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+    "name": "ProGraphGroup.packages.GeneralManagers",
+    "rootNamespace": "",
+    "references": [
+        "ProGraphGroup.Packages.Utility"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
