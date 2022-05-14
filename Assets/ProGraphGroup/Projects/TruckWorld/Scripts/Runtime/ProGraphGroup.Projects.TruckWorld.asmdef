@@ -10,7 +10,8 @@
         "NakamaEditor",
         "UniTask.Linq",
         "ProGraphGroup.Packages.Utility",
-        "BrunoMikoski.AnimationSequencer"
+        "BrunoMikoski.AnimationSequencer",
+        "Unity.TextMeshPro"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

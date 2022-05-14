@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using BrunoMikoski.AnimationSequencer;
 using UnityEngine;
 
 namespace ProGraphGroup.Projects.TruckWorld
@@ -38,8 +39,12 @@ namespace ProGraphGroup.Projects.TruckWorld
         private void GoToPage(int pageIndex)
         {
             Debug.Log("GoToPage");
-            pageList[currentPageIndex].SetActive(false);
+            // pageList[currentPageIndex].SetActive(false);
+            int oldPageIndex = currentPageIndex;
+            if (oldPageIndex != pageIndex)
+                pageList[oldPageIndex].GetComponent<AnimationSequencerController>().GetControllerByTagKey("Hide").Play(() => pageList[oldPageIndex].SetActive(false));
             currentPageIndex = pageIndex;
+            pageList[currentPageIndex].GetComponent<AnimationSequencerController>().GetControllerByTagKey("Show").Play();
             pageList[currentPageIndex].SetActive(true);
         }
 
@@ -47,13 +52,12 @@ namespace ProGraphGroup.Projects.TruckWorld
         {
             Debug.Log("Show");
             rootGo.SetActive(true);
-    
         }
+
         public void Hide()
         {
             Debug.Log("Hide");
             rootGo.SetActive(false);
-   
         }
     }
 }
