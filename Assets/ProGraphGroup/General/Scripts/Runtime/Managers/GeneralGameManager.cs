@@ -17,9 +17,6 @@ namespace ProGraphGroup.General.Managers
         private LoginController _loginController = new LoginController();
         private MainMenuController _mainMenuController = new MainMenuController();
 
-        private CancellationTokenSource _cancellationTokenSource;
-        private Action _onEndAction;
-
 
         void Start()
         {
