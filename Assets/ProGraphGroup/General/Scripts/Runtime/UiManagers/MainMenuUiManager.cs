@@ -1,12 +1,12 @@
 ﻿using Cysharp.Threading.Tasks;
+using ProGraphGroup.General.ManagersOld;
 using ProGraphGroup.Packages.Utility;
-using ProGraphGroup.Games.Hero.Managers;
 using RTLTMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using Task = System.Threading.Tasks.Task;
 
-namespace ProGraphGroup.Games.Hero.UiManagers
+namespace ProGraphGroup.General.UiManagers
 {
     public class MainMenuUiManager : MonoSingleton<MainMenuUiManager>
     {

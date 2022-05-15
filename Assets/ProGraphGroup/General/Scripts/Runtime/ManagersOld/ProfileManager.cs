@@ -1,15 +1,15 @@
 ﻿using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
-using ProGraphGroup.Packages.Utility;
 using Nakama;
 using Newtonsoft.Json;
-using ProGraphGroup.Games.Hero.Models.Configs;
-using ProGraphGroup.Games.Hero.Server;
-using ProGraphGroup.Games.Hero.Server.Models.Response;
+using ProGraphGroup.General.Models.Configs;
+using ProGraphGroup.General.Server;
+using ProGraphGroup.General.Server.Models.Response;
 using ProGraphGroup.General.Utility;
+using ProGraphGroup.Packages.Utility;
 using UnityEngine.Events;
 
-namespace ProGraphGroup.Games.Hero.Managers
+namespace ProGraphGroup.General.ManagersOld
 {
     public class ProfileManager : MonoSingleton<ProfileManager>
     {

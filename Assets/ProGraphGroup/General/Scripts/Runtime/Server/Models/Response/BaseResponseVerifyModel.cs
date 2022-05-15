@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace ProGraphGroup.Games.Hero.Server.Models.Response
+namespace ProGraphGroup.General.Server.Models.Response
 {
     public class BaseResponseVerifyModel : BaseResponseModel
     {

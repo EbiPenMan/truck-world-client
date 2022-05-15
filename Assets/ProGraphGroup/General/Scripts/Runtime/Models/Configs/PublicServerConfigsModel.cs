@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace ProGraphGroup.Games.Hero.Models.Configs
+namespace ProGraphGroup.General.Models.Configs
 {
     public class PublicServerConfigsModel {
     

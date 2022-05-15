@@ -1,4 +1,4 @@
-﻿namespace ProGraphGroup.Games.Hero.Models
+﻿namespace ProGraphGroup.General.Models
 {
     public class Profile
     {

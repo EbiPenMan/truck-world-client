@@ -56,9 +56,17 @@ namespace ProGraphGroup.Projects.TruckWorld
             //if server accept request show input code ui
             //else show error
             //PhoneNumberError.text = "کد مورد تایید نمی باشد";
-            
-            initForGetCode();
-            //TODO start timer;
+
+            if (currentPhoneNumber.StartsWith("0912") || currentPhoneNumber.StartsWith("912"))
+            {
+                initForGetCode();
+                //TODO start timer;
+            }
+            else
+            {
+                PhoneNumberError.text = "شماره همراه مورد تایید نمی باشد";
+            }
+
         }
 
         public void initForGetCode()
@@ -73,6 +81,7 @@ namespace ProGraphGroup.Projects.TruckWorld
             CodeInput.text = "";
             CodeError.text = "";
             Btn_SendAgain.interactable = false;
+            Btn_VerifyCode.interactable = false;
             UniTaskAsyncEnumerable.Interval(TimeSpan.FromSeconds(1)).ForEachAsync(_ =>
             {
                 Debug.Log("timerValue: " + timerValue);
@@ -118,7 +127,7 @@ namespace ProGraphGroup.Projects.TruckWorld
             //send code to server for verify
             //if ok get profile data and got to next ui
             //else show error
-            
+
             currentCode = Int32.Parse(CodeInput.text);
 
             //if ok
@@ -132,7 +141,6 @@ namespace ProGraphGroup.Projects.TruckWorld
             {
                 CodeError.text = "کد مورد تایید نمی باشد";
             }
-
         }
 
         public void ChangePhoneNumber()

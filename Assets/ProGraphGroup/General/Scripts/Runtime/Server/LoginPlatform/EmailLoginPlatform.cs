@@ -2,12 +2,12 @@
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using Nakama;
-using ProGraphGroup.Games.Hero.Server.LoginPlatform.Base;
 using ProGraphGroup.General.Models;
+using ProGraphGroup.General.Server.LoginPlatform.Base;
 using ProGraphGroup.General.Utility;
 using UnityEngine;
 
-namespace ProGraphGroup.Games.Hero.Server.LoginPlatform
+namespace ProGraphGroup.General.Server.LoginPlatform
 {
     public class EmailLoginPlatform : LoginPlatformBase
     {

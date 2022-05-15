@@ -1,8 +1,6 @@
-﻿using System;
-using Cysharp.Threading.Tasks;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace ProGraphGroup.Games.Hero.Server
+namespace ProGraphGroup.General.Server
 {
     public class ServerUiController : MonoBehaviour
     {

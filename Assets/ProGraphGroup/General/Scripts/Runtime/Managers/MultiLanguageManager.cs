@@ -1,7 +1,7 @@
 
 using ProGraphGroup.Packages.Utility;
 
-namespace ProGraphGroup.General.Manager
+namespace ProGraphGroup.General.Managers
 {
     public class MultiLanguage : Singleton<MultiLanguage>
     {

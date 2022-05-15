@@ -1,8 +1,7 @@
-using System;
 using ProGraphGroup.Packages.Utility;
 using UnityEngine;
 
-namespace ProGraphGroup.General.Manager
+namespace ProGraphGroup.General.Managers
 {
     public class LocalStorageManager : Singleton<LocalStorageManager>
     {

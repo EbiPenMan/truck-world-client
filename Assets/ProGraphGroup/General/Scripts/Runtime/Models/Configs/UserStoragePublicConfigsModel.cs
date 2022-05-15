@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace ProGraphGroup.Games.Hero.Models.Configs
+namespace ProGraphGroup.General.Models.Configs
 {
     public class UserStoragePublicConfigsModel {
     

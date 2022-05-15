@@ -10,7 +10,10 @@
         "UniTask.DOTween",
         "DOTweenPro.EditorScripts",
         "ProGraphGroup.packages.Transmission",
-        "RTLTMPro"
+        "RTLTMPro",
+        "UniTask.Linq",
+        "UniTask.TextMeshPro",
+        "UniTask.Addressables"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace ProGraphGroup.Games.Hero.Server.Models
+namespace ProGraphGroup.General.Server.Models
 {
     public class BaseErrorModel
     {

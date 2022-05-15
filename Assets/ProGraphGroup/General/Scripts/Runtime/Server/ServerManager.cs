@@ -1,22 +1,16 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading;
 using Cysharp.Threading.Tasks;
-using ProGraphGroup.Packages.Utility;
 using Nakama;
 using Newtonsoft.Json;
-using ProGraphGroup.Games.Hero.Models.Configs;
-using ProGraphGroup.Games.Hero.Server.Configs;
-using ProGraphGroup.Games.Hero.Server.LoginPlatform;
-using ProGraphGroup.Games.Hero.Server.LoginPlatform.Base;
-using ProGraphGroup.Games.Hero.Server.Models;
-using ProGraphGroup.Games.Hero.Server.Models.Response;
-using ProGraphGroup.General.Models;
+using ProGraphGroup.General.Models.Configs;
+using ProGraphGroup.General.Server.Configs;
+using ProGraphGroup.General.Server.LoginPlatform;
+using ProGraphGroup.General.Server.Models.Response;
 using ProGraphGroup.General.Utility;
 using UnityEngine;
 
-namespace ProGraphGroup.Games.Hero.Server
+namespace ProGraphGroup.General.Server
 {
     public class ServerManager : MonoSingletonExtend<ServerManager>
     {

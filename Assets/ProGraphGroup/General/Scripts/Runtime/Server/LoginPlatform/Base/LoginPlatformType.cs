@@ -1,4 +1,4 @@
-﻿namespace ProGraphGroup.Games.Hero.Server.LoginPlatform.Base
+﻿namespace ProGraphGroup.General.Server.LoginPlatform.Base
 {
     [System.Flags]
     public enum LoginPlatformType

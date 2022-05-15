@@ -1,6 +1,6 @@
 ﻿using ProGraphGroup.Packages.Utility;
 
-namespace ProGraphGroup.Games.Hero.UiManagers
+namespace ProGraphGroup.General.UiManagers
 {
     public class UiManager : MonoSingleton<UiManager>
     {

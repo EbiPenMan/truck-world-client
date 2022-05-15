@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
-using ProGraphGroup.Games.Hero.Server.LoginPlatform.Base;
-using UnityEngine;
-// using CafeBazaar.Games;
-// using CafeBazaar.Games.BasicApi;
 using Nakama;
 using ProGraphGroup.General.Models;
-using ProGraphGroup.General.Utility;
+using ProGraphGroup.General.Server.LoginPlatform.Base;
+using UnityEngine; // using CafeBazaar.Games;
+// using CafeBazaar.Games.BasicApi;
 
-namespace ProGraphGroup.Games.Hero.Server.LoginPlatform
+namespace ProGraphGroup.General.Server.LoginPlatform
 {
     public class CafeBazaarLoginPlatform : LoginPlatformBase
     {

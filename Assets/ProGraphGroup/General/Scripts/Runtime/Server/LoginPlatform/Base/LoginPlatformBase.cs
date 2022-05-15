@@ -3,9 +3,8 @@ using Cysharp.Threading.Tasks;
 using Nakama;
 using ProGraphGroup.General.Models;
 using ProGraphGroup.General.Utility;
-using UnityEngine;
 
-namespace ProGraphGroup.Games.Hero.Server.LoginPlatform.Base
+namespace ProGraphGroup.General.Server.LoginPlatform.Base
 {
     public abstract class LoginPlatformBase : MonoBehaviourExtend
     {

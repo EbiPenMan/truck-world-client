@@ -1,7 +1,6 @@
-using ProGraphGroup.Games.Hero.Server.LoginPlatform.Base;
 using UnityEngine;
 
-namespace ProGraphGroup.Games.Hero.Server.Configs
+namespace ProGraphGroup.General.Server.Configs
 {
     [CreateAssetMenu( menuName = "ProGraphGroup/Server/Create New Config" , fileName = "NewServerConfig")]
     public class ServerClientConfigs : ScriptableObject

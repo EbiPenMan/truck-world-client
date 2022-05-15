@@ -1,11 +1,8 @@
-﻿using System;
-using ProGraphGroup.Packages.Utility;
-using ProGraphGroup.Games.Hero.UiManagers;
-using ProGraphGroup.General.Components;
+﻿using ProGraphGroup.General.UiManagers;
 using ProGraphGroup.General.Utility;
-using UnityEngine;
+using ProGraphGroup.Packages.Utility;
 
-namespace ProGraphGroup.Games.Hero.Managers
+namespace ProGraphGroup.General.ManagersOld
 {
     public class GameManager : MonoSingleton<GameManager>
     {

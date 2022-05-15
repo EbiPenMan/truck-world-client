@@ -1,12 +1,12 @@
 ﻿using Cysharp.Threading.Tasks;
-using ProGraphGroup.Games.Hero.Server.LoginPlatform.Base;
 using ProGraphGroup.Games.Hero.Transmission;
+using ProGraphGroup.General.Server.LoginPlatform.Base;
 using ProGraphGroup.General.Utility;
 using RTLTMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ProGraphGroup.Games.Hero.Server.LoginPlatform
+namespace ProGraphGroup.General.Server.LoginPlatform
 {
     public class LoginManagerUiController : MonoBehaviourExtend
     {

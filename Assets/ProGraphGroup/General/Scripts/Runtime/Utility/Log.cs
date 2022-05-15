@@ -1,4 +1,4 @@
-﻿using ProGraphGroup.General.Manager;
+﻿using ProGraphGroup.General.Managers;
 
 namespace ProGraphGroup.General.Utility
 {
