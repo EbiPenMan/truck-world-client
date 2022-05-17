@@ -4,6 +4,7 @@ using Cysharp.Threading.Tasks;
 using ProGraphGroup.General.Controllers;
 using ProGraphGroup.General.Utility;
 using ProGraphGroup.Packages.Utility;
+using ProGraphGroup.Projects.TruckWorld;
 
 namespace ProGraphGroup.General.Managers
 {
@@ -11,11 +12,11 @@ namespace ProGraphGroup.General.Managers
     {
         public GeneralGameState CurrentGameState = GeneralGameState.ClientUpdateCheck;
 
-        private ClientUpdateCheckController _clientUpdateCheckController = new ClientUpdateCheckController();
-        private ServerStatusCheckController _serverStatusCheckController = new ServerStatusCheckController();
-        private IntroController _introController = new IntroController();
-        private LoginController _loginController = new LoginController();
-        private MainMenuController _mainMenuController = new MainMenuController();
+        public ClientUpdateCheckController clientUpdateCheckController;
+        public ServerStatusCheckController serverStatusCheckController;
+        public IntroController introController;
+        public LoginController loginController;
+        public MainMenuController mainMenuController;
 
 
         void Start()
@@ -33,26 +34,33 @@ namespace ProGraphGroup.General.Managers
         {
             GeneralGameState _oldGameState = CurrentGameState;
             CurrentGameState = state;
-            switch (CurrentGameState)
+
+            if (CurrentGameState == GeneralGameState.ClientUpdateCheck && clientUpdateCheckController != null)
             {
-                case GeneralGameState.ClientUpdateCheck:
-                    _clientUpdateCheckController.Init(null, onDoneState);
-                    break;
-                case GeneralGameState.ServerStatusCheck:
-                    _serverStatusCheckController.Init(null, onDoneState);
-                    break;
-                case GeneralGameState.Intro:
-                    _introController.Init(null, onDoneState);
-                    break;
-                case GeneralGameState.Login:
-                    _loginController.Init(null, onDoneState);
-                    break;
-                case GeneralGameState.MainMenu:
-                    _mainMenuController.Init();
-                    break;
-                default:
-                    CurrentGameState = _oldGameState;
-                    throw new ArgumentOutOfRangeException();
+                clientUpdateCheckController.Init(null, onDoneState);
+            }
+            else if (CurrentGameState == GeneralGameState.ServerStatusCheck && serverStatusCheckController != null)
+            {
+                serverStatusCheckController.Init(null, onDoneState);
+            }
+            else if (CurrentGameState == GeneralGameState.Intro && introController != null)
+            {
+                introController.Init(null, onDoneState);
+            }
+            else if (CurrentGameState == GeneralGameState.Login && loginController != null)
+            {
+                loginController.Init(null, onDoneState);
+            }
+            else if (CurrentGameState == GeneralGameState.MainMenu && mainMenuController != null)
+            {
+                mainMenuController.Init(null, null);
+            }
+            else if ((CurrentGameState == GeneralGameState.ClientUpdateCheck && clientUpdateCheckController == null) ||
+                     (CurrentGameState == GeneralGameState.ServerStatusCheck && serverStatusCheckController == null) ||
+                     (CurrentGameState == GeneralGameState.Intro && introController == null) ||
+                     (CurrentGameState == GeneralGameState.Login && loginController == null))
+            {
+                NextState();
             }
         }
 

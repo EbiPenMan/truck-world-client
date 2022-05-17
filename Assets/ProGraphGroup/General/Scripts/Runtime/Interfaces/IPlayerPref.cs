@@ -2,8 +2,10 @@
 
 namespace ProGraphGroup.General.Interfaces
 {
-    public interface IInit<T> where T : class
+    public interface  IPlayerPref<T> 
     {
-        public void Init(T data = null, Action<bool> onDone = null);
+        public void SavePref(T data);
+        public T LoadPref();
+        
     }
 }

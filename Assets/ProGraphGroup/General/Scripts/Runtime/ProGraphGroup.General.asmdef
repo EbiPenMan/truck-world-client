@@ -13,7 +13,9 @@
         "RTLTMPro",
         "UniTask.Linq",
         "UniTask.TextMeshPro",
-        "UniTask.Addressables"
+        "UniTask.Addressables",
+        "BrunoMikoski.AnimationSequencer",
+        "Unity.TextMeshPro"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

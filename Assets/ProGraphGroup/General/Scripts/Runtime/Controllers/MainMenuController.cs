@@ -6,10 +6,13 @@ using UnityEngine;
 
 namespace ProGraphGroup.General.Controllers
 {
-    public class MainMenuController:  MonoBehaviour ,IInit<object>
+    public class MainMenuController : MonoBehaviour, IInit<object>
     {
+        public GameObject root;
+
         public void Init(object data = null, Action<bool> onDone = null)
         {
+            root.SetActive(true);
         }
     }
 }

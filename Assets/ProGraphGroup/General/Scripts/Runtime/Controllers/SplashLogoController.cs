@@ -11,7 +11,7 @@ using UnityEngine.Video;
 namespace ProGraphGroup.General.Controllers
 {
     [Serializable]
-    public class SplashLogoController : MonoBehaviour , IInit<object>
+    public class SplashLogoController : MonoBehaviour, IInit<object>
     {
         [TitleGroup("General")] public Image BackgroundImage;
         [TitleGroup("General")] public Button SkipButton;
@@ -32,7 +32,9 @@ namespace ProGraphGroup.General.Controllers
         public void Init(object data = null, Action<bool> onDone = null)
         {
             this.onDone = onDone;
-            StartItem();
+            // StartItem();
+            if (onDone != null)
+                onDone(true);
         }
 
         public async UniTask StartItem()
@@ -50,9 +52,8 @@ namespace ProGraphGroup.General.Controllers
 
         private async UniTask ShowItem(ItemClass item)
         {
-            
             BackgroundImage.color = item.BackgroundDefaultColor;
-            
+
             if (item.ItemType == ItemTypeEnum.Video)
             {
                 LogoCanvasGroup.gameObject.SetActive(false);
@@ -63,8 +64,8 @@ namespace ProGraphGroup.General.Controllers
                 LogoCanvasGroup.gameObject.SetActive(true);
                 VideoCanvasGroup.gameObject.SetActive(false);
             }
-            
-            
+
+
             if (item.BackgroundFadeInExecuteOrder == FadeExecuteOrderEnum.BeforeDelay)
             {
                 Debug.Log("Start Fade In BeforeDelay" + DateTime.Now);
@@ -174,7 +175,6 @@ namespace ProGraphGroup.General.Controllers
                 Debug.Log("End Fade Out AfterDelay" + DateTime.Now);
             }
         }
-
     }
 
     [Serializable]
@@ -185,8 +185,7 @@ namespace ProGraphGroup.General.Controllers
 
         public bool SkipButton;
 
-        
-        
+
         [FoldoutGroup("Background Fade In")] [LabelText("Color")]
         public Color BackgroundFadeInColor;
 

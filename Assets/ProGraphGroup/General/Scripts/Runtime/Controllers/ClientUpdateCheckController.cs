@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace ProGraphGroup.General.Controllers
 {
-    public class ClientUpdateCheckController : MonoBehaviour , IInit<object>
+    public class ClientUpdateCheckController : MonoBehaviour, IInit<object>
     {
         public List<ConfigDownloadPlatformClass> ConfigDownloadPlatforms =
             new List<ConfigDownloadPlatformClass>();
@@ -26,6 +26,8 @@ namespace ProGraphGroup.General.Controllers
         public void Init(object data = null, Action<bool> onDone = null)
         {
             this.onDone = onDone;
+            if (onDone != null)
+                onDone(true);
         }
 
         private async UniTask GetConfigs()
@@ -73,8 +75,7 @@ namespace ProGraphGroup.General.Controllers
                 [JsonProperty("version")] public float Version;
                 [JsonProperty("updateDescription")] public string UpdateDescription;
 
-                [JsonProperty("DownloadLinks")]
-                public List<ConfigSelfHostClass.DownloadLinkClass> DownloadLinks;
+                [JsonProperty("DownloadLinks")] public List<ConfigSelfHostClass.DownloadLinkClass> DownloadLinks;
             }
 
             [Serializable]

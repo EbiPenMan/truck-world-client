@@ -6,10 +6,15 @@ using UnityEngine;
 
 namespace ProGraphGroup.General.Controllers
 {
-    public class ServerStatusCheckController:  MonoBehaviour ,IInit<object>
+    public class ServerStatusCheckController : MonoBehaviour, IInit<object>
     {
+        private Action<bool> onDone;
+
         public void Init(object data = null, Action<bool> onDone = null)
         {
+            this.onDone = onDone;
+            if (onDone != null)
+                onDone(true);
         }
     }
 }
