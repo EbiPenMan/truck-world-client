@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
+using ProGraphGroup.General.Interfaces;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,7 +11,7 @@ using UnityEngine.Video;
 namespace ProGraphGroup.General.Controllers
 {
     [Serializable]
-    public class PGC_SplashLogo : MonoBehaviour
+    public class PGC_SplashLogo : MonoBehaviour , IInit<object>
     {
         [TitleGroup("General")] public Image BackgroundImage;
         [TitleGroup("General")] public Button SkipButton;
@@ -26,18 +27,9 @@ namespace ProGraphGroup.General.Controllers
         public List<ItemClass> ItemClasses;
 
         private int currentIndex = 0;
-        private Func<bool> onDone;
+        private Action<bool> onDone;
 
-        private void Start()
-        {
-            Init(() =>
-            {
-                Debug.Log("OnDone");
-                return true;
-            });
-        }
-
-        public void Init(Func<bool> onDone)
+        public void Init(object data = null, Action<bool> onDone = null)
         {
             this.onDone = onDone;
             StartItem();
