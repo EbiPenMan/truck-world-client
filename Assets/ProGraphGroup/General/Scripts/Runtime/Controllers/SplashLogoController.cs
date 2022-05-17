@@ -11,7 +11,7 @@ using UnityEngine.Video;
 namespace ProGraphGroup.General.Controllers
 {
     [Serializable]
-    public class PGC_SplashLogo : MonoBehaviour , IInit<object>
+    public class SplashLogoController : MonoBehaviour , IInit<object>
     {
         [TitleGroup("General")] public Image BackgroundImage;
         [TitleGroup("General")] public Button SkipButton;
@@ -39,7 +39,7 @@ namespace ProGraphGroup.General.Controllers
         {
             if (currentIndex >= ItemClasses.Count)
             {
-                onDone.Invoke();
+                onDone(true);
             }
 
             ItemClass currentItem = ItemClasses[currentIndex];

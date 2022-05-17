@@ -36,16 +36,16 @@ namespace ProGraphGroup.General.Managers
             switch (CurrentGameState)
             {
                 case GeneralGameState.ClientUpdateCheck:
-                    _clientUpdateCheckController.Init();
+                    _clientUpdateCheckController.Init(null, onDoneState);
                     break;
                 case GeneralGameState.ServerStatusCheck:
-                    _serverStatusCheckController.Init();
+                    _serverStatusCheckController.Init(null, onDoneState);
                     break;
                 case GeneralGameState.Intro:
-                    _introController.Init();
+                    _introController.Init(null, onDoneState);
                     break;
                 case GeneralGameState.Login:
-                    _loginController.Init();
+                    _loginController.Init(null, onDoneState);
                     break;
                 case GeneralGameState.MainMenu:
                     _mainMenuController.Init();
@@ -55,7 +55,13 @@ namespace ProGraphGroup.General.Managers
                     throw new ArgumentOutOfRangeException();
             }
         }
+
+        private void onDoneState(bool res)
+        {
+            NextState();
+        }
     }
+
 
     public enum GeneralGameState
     {
