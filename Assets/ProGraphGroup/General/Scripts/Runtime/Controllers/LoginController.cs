@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using Cysharp.Threading.Tasks.Linq;
-using DG.DemiEditor;
+// using DG.DemiEditor;
 using ProGraphGroup.General.Interfaces;
 using RTLTMPro;
 using TMPro;
@@ -41,7 +41,7 @@ namespace ProGraphGroup.Projects.TruckWorld
 
         public void Init(object data = null, Action<bool> onDone = null)
         {
-            if (LoadPref().IsNullOrEmpty())
+            if (LoadPref() == null || LoadPref() == "")
             {
                 //TODO show loading and send login to server
                 //TODO wait for res - hide loading and call onDone

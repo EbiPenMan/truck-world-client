@@ -34,6 +34,7 @@ using frame8.Logic.Misc.Other.Extensions;
 using Com.TheFallenGames.OSA.Core;
 using Com.TheFallenGames.OSA.CustomParams;
 using Com.TheFallenGames.OSA.DataHelpers;
+using TMPro;
 
 // You should modify the namespace to your own or - if you're sure there won't ever be conflicts - remove it altogether
 namespace Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Lists
@@ -184,7 +185,7 @@ namespace Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Lists
 			{
 				var model = new MyListItemModel()
 				{
-					title = "Random item ",
+					title = "عنوان تصادفی ",
 					color = new Color(
 								UnityEngine.Random.Range(0f, 1f),
 								UnityEngine.Random.Range(0f, 1f),
@@ -220,7 +221,7 @@ namespace Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Lists
 	public class MyListItemViewsHolder : BaseItemViewsHolder
 	{
 		
-		public Text titleText;
+		public TMP_Text titleText;
 		public Image backgroundImage;
 		
 
