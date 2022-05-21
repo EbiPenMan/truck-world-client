@@ -270,252 +270,17 @@ RectTransform:
   m_AnchoredPosition: {x: 5, y: -20}
   m_SizeDelta: {x: -180, y: 30}
   m_Pivot: {x: 0, y: 0.5}
---- !u!1 &193630188
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 193630191}
-  - component: {fileID: 193630190}
-  - component: {fileID: 193630189}
-  - component: {fileID: 193630196}
-  - component: {fileID: 193630195}
-  - component: {fileID: 193630192}
-  - component: {fileID: 193630193}
-  - component: {fileID: 193630197}
-  - component: {fileID: 193630194}
-  m_Layer: 0
-  m_Name: Map
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &193630189
+--- !u!114 &193630192 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7414952373851284156, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+  m_PrefabInstance: {fileID: 7414952373725097292}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193630188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b620559b752ba940a1eb34b10dfde7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeTexture: {fileID: 0}
-  allowZoom: 1
-  allowUserControl: 1
-  checkScreenSizeForWheelZoom: 1
-  drawingElementManager: {fileID: 0}
-  isMapDrag: 0
-  invertTouchZoom: 0
-  markerManager: {fileID: 0}
-  smoothZoom: 1
-  zoomInOnDoubleClick: 1
-  zoomMode: 0
-  zoomSensitivity: 1
-  activeCamera: {fileID: 0}
-  elevationManager: {fileID: 0}
-  marker2DMode: 0
-  marker2DSize: 100
-  marker3DManager: {fileID: 0}
-  originalPosition: {x: 0, y: 0, z: 0}
-  originalScale: {x: 0, y: 0, z: 0}
-  checkMarker2DVisibility: 0
-  elevationResolution: 32
-  markerMaterial: {fileID: 0}
-  markerShader: {fileID: 30, guid: 0000000000000000f000000000000000, type: 0}
-  sizeInScene: {x: 1024, y: 1024}
-  colliderType: 1
-  compressTextures: 1
-  drawingsGameObject: {fileID: 0}
-  drawingMode: 0
-  drawingShader: {fileID: 4800000, guid: 07fd051d8972c7a4bac96bfa8038d08b, type: 3}
-  tileMaterial: {fileID: 0}
-  tilesetShader: {fileID: 4800000, guid: f65580aa9bbbd7e42b05adab01e1ca2d, type: 3}
-  _mipmapForTiles: 0
---- !u!114 &193630190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193630188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cf484bb098da8c48973c6e0076a9e35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  allowRedraw: 1
-  blockAllInteractions: 0
-  countParentLevels: 5
-  customProviderURL: https://tile.snappmaps.ir/{zoom}/{y}/{x}
-  customTrafficProviderURL: http://localhost/{zoom}/{y}/{x}
-  defaultTileTexture: {fileID: 0}
-  dispatchEvents: 1
-  dragMarkerHoldingCTRL: 0
-  emptyColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  height: 1024
-  labels: 1
-  language: fa
-  lockRedraw: 0
-  needRedraw: 1
-  notInteractUnderGUI: 1
-  mapType: google.relief
-  osmServer: 0
-  proxyURL: http://service.infinity-code.com/redirect.php?
-  redrawOnPlay: 0
-  renderInThread: 0
-  resourcesPath: OnlineMapsTiles/{zoom}/{x}/{y}
-  streamingAssetsPath: OnlineMapsTiles/{zoom}/{x}/{y}.png
-  showMarkerTooltip: 0
-  source: 0
-  stopPlayingWhenScriptsCompile: 1
-  texture: {fileID: 0}
-  tooltipBackgroundTexture: {fileID: 2800000, guid: a8d1734e646100c4e83635fecf978e15, type: 3}
-  traffic: 1
-  trafficProviderID: googlemaps
-  useCurrentZoomTiles: 0
-  useProxy: 1
-  useSoftwareJPEGDecoder: 0
-  width: 1024
-  _activeTypeSettings: 
-  _zoom: 17
-  latitude: 35.7584578746552
-  longitude: 51.5216201353452
---- !u!4 &193630191
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193630188}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1780823381}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &193630192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193630188}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80faaef41991a354da8d1235b0f3d125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  twoThreeDText: {fileID: 1998340979}
-  labelsToggle: {fileID: 839997127}
-  trafficToggle: {fileID: 2035576998}
-  elevationsToggle: {fileID: 1662862741}
-  camera2D: {fileID: 415663056}
-  camera3D: {fileID: 1271902923}
-  CameraChangeTime: 0.5
---- !u!114 &193630193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193630188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed3c476c58b6b054d9469cbe6c8fa060, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  customCacheUnloadRate: 0.3
-  maxCustomCacheSize: 100
-  fileCacheLocation: 0
-  fileCacheCustomPath: 
-  fileCacheTilePath: TileCache/{pid}/{mid}/{lbs}/{lng}/{zoom}/{x}/{y}
-  fileCacheUnloadRate: 0.3
-  maxFileCacheSize: 100
-  useFileCache: 1
-  maxMemoryCacheSize: 10
-  memoryCacheUnloadRate: 0.3
-  useMemoryCache: 1
---- !u!114 &193630194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193630188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a534a86587db3df448ba5d9d06e37bb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bottomMode: 0
-  scale: 1
-  zoomRange:
-    max: 20
-    min: 11
-    maxLimit: 20
-    minLimit: 1
-  lockYScale: 0
-  yScaleValue: 1
-  tweenUpdateValues: 1
-  tweenDuration: 0.5
-  resolution: 32
---- !u!114 &193630195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193630188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06f2cfe9365da3b4da8d6b60e10f8184, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _items: []
-  defaultScale: 1
-  allowAddMarker3DByN: 1
-  defaultPrefab: {fileID: 0}
---- !u!114 &193630196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193630188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 442db0cd7f5047744a8c79880b32aad0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _items: []
-  defaultScale: 1
-  defaultTexture: {fileID: 2800000, guid: ea7eb0aa8eaab054a91d4219f9719f63, type: 3}
-  defaultAlign: 7
-  allowAddMarkerByM: 1
---- !u!114 &193630197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193630188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e647aef79998b6740a728a33d59d61ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  map: {fileID: 0}
-  duration: 0.3
 --- !u!1 &255774829
 GameObject:
   m_ObjectHideFlags: 0
@@ -1979,7 +1744,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
 --- !u!114 &1545669177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2383,60 +2148,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754974754}
   m_CullTransparentMesh: 1
---- !u!1 &1780823380
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1780823381}
-  - component: {fileID: 1780823382}
-  m_Layer: 0
-  m_Name: Key Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1780823381
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1780823380}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 193630191}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1780823382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1780823380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f768b7afd4612144a9575c4bfd210796, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amap: 
-  bingMaps: 
-  googleMaps: 
-  hereApiKey: 
-  hereAppCode: 
-  hereAppID: 
-  mapboxAccessToken: 
-  openRouteService: 
-  qq: 
-  what3Words: 
 --- !u!1 &1886159591
 GameObject:
   m_ObjectHideFlags: 0
@@ -3004,3 +2715,84 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088043761}
   m_CullTransparentMesh: 1
+--- !u!1001 &7414952373725097292
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7414952373851284128, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: m_Name
+      value: Map
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414952373851284131, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414952373851284131, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414952373851284131, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414952373851284131, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414952373851284131, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414952373851284131, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414952373851284131, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414952373851284131, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414952373851284131, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414952373851284131, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414952373851284131, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7414952373851284156, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: camera2D
+      value: 
+      objectReference: {fileID: 415663056}
+    - target: {fileID: 7414952373851284156, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: camera3D
+      value: 
+      objectReference: {fileID: 1271902923}
+    - target: {fileID: 7414952373851284156, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: labelsToggle
+      value: 
+      objectReference: {fileID: 839997127}
+    - target: {fileID: 7414952373851284156, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: trafficToggle
+      value: 
+      objectReference: {fileID: 2035576998}
+    - target: {fileID: 7414952373851284156, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: twoThreeDText
+      value: 
+      objectReference: {fileID: 1998340979}
+    - target: {fileID: 7414952373851284156, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}
+      propertyPath: elevationsToggle
+      value: 
+      objectReference: {fileID: 1662862741}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e2bc40e962e6524a8c7b0ed882e0431, type: 3}

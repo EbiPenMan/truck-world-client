@@ -1,7 +1,7 @@
 
 namespace ProGraphGroup.Projects.TruckWorld.PanelController
 {
-    public class ShopController : BasePanelController
+    public class NewsController : BasePanelController
     {
 
         
