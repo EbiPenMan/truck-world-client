@@ -7,6 +7,7 @@ namespace ProGraphGroup.Projects.TruckWorld.PanelController
     public class BasePanelController : MonoBehaviour
     {
         [Header("General")] public GameObject root;
+        public MainMenuPanelController.MainMenuState myState;
         [HideInInspector] public bool isShowing;
         [HideInInspector] public bool isHiding;
 
@@ -14,11 +15,10 @@ namespace ProGraphGroup.Projects.TruckWorld.PanelController
         public GameObject itemsHeader;
         public GameObject content;
 
-        public MainMenuPanelController.MainMenuState myState;
-        
-        private MainMenuPanelController mainMenuPanelController;
 
-        public async UniTask Show(MainMenuPanelController mainMenuPanelController )
+        protected MainMenuPanelController mainMenuPanelController;
+
+        public async UniTask Show(MainMenuPanelController mainMenuPanelController)
         {
             this.mainMenuPanelController = mainMenuPanelController;
             if (isShowing)

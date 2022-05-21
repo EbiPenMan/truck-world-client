@@ -56,21 +56,25 @@ namespace ProGraphGroup.Projects.TruckWorld.PanelController
 
             isChangingProfilePanelState = false;
         }
-        
-        public async UniTask ShowPanel(MainMenuState state)
+
+        public void ShowPanel(int state)
         {
-            ChangeState(state).Forget();
+            if ((MainMenuState) state == MainMenuState.Profile)
+                ShowHideProfilePanel(true).Forget();
+            else
+                ChangeState((MainMenuState) state).Forget();
         }
+        
 
         public enum MainMenuState
         {
-            None,
-            Map,
-            Place,
-            Learn,
-            Shop,
-            News,
-            Profile
+            None = 0,
+            Map = 1,
+            Place = 2,
+            Learn = 3,
+            Shop = 4,
+            News = 5,
+            Profile = 6
         }
     }
 }
