@@ -1,0 +1,1105 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 DG.Tweening.TweenParams DG.Tweening.CustomEaseExtensions::SetEase(DG.Tweening.TweenParams,BrunoMikoski.AnimationSequencer.CustomEase)
+extern void CustomEaseExtensions_SetEase_m4C4821239D1626E1A948E63EBB9085A11472484A (void);
+// 0x00000002 T DG.Tweening.CustomEaseExtensions::SetEase(T,BrunoMikoski.AnimationSequencer.CustomEase)
+// 0x00000003 DG.Tweening.Sequence BrunoMikoski.AnimationSequencer.AnimationSequencerController::get_PlayingSequence()
+extern void AnimationSequencerController_get_PlayingSequence_m690817FD03C0053B31F524103001189257248D4F (void);
+// 0x00000004 System.Boolean BrunoMikoski.AnimationSequencer.AnimationSequencerController::get_IsPlaying()
+extern void AnimationSequencerController_get_IsPlaying_m10DADF022387A7CA1FDE82257C8AF6A706155760 (void);
+// 0x00000005 UnityEngine.Events.UnityEvent BrunoMikoski.AnimationSequencer.AnimationSequencerController::get_OnStartEvent()
+extern void AnimationSequencerController_get_OnStartEvent_mEF4BAAC1B10A684CE08CF6FEDE00ABC155D6F3C7 (void);
+// 0x00000006 UnityEngine.Events.UnityEvent BrunoMikoski.AnimationSequencer.AnimationSequencerController::get_OnFinishedEvent()
+extern void AnimationSequencerController_get_OnFinishedEvent_mF5DEFE0D6132BF3935AEB49CAEA8E58DD7F64046 (void);
+// 0x00000007 UnityEngine.Events.UnityEvent BrunoMikoski.AnimationSequencer.AnimationSequencerController::get_OnProgressEvent()
+extern void AnimationSequencerController_get_OnProgressEvent_m04282CBF3EFD17880422402C91766E12D896569A (void);
+// 0x00000008 UnityEngine.Events.UnityEvent BrunoMikoski.AnimationSequencer.AnimationSequencerController::get_OnPauseEvent()
+extern void AnimationSequencerController_get_OnPauseEvent_m1DE4E98AFDC509B0E3B779F4B51BEC2683B3EA34 (void);
+// 0x00000009 UnityEngine.Events.UnityEvent BrunoMikoski.AnimationSequencer.AnimationSequencerController::get_OnResumeEvent()
+extern void AnimationSequencerController_get_OnResumeEvent_m2067C9619034A6C383213B3DC62F273B519294D4 (void);
+// 0x0000000A UnityEngine.Events.UnityEvent BrunoMikoski.AnimationSequencer.AnimationSequencerController::get_OnSequenceLoopCycleStartEvent()
+extern void AnimationSequencerController_get_OnSequenceLoopCycleStartEvent_mD3FEB74B0D9C90E1527DC528C8466A8B23BFE6AE (void);
+// 0x0000000B UnityEngine.Events.UnityEvent BrunoMikoski.AnimationSequencer.AnimationSequencerController::get_OnSequenceLoopCycleFinishedEvent()
+extern void AnimationSequencerController_get_OnSequenceLoopCycleFinishedEvent_m8472C3667C6E3E69C183826D29AFB86F943DF811 (void);
+// 0x0000000C System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController::OnPause()
+extern void AnimationSequencerController_OnPause_mB27FB8DCF1D220F9D7649A27035459B23A4EFE44 (void);
+// 0x0000000D System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController::OnResume()
+extern void AnimationSequencerController_OnResume_m0A8CDD24888277AE3D82FB360F5E5E029E769ACA (void);
+// 0x0000000E System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController::OnSequenceLoopCycleStart()
+extern void AnimationSequencerController_OnSequenceLoopCycleStart_m41893139E26C9F986BA56D58810FCDCFF1A8AA6B (void);
+// 0x0000000F System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController::OnSequenceLoopCycleFinished()
+extern void AnimationSequencerController_OnSequenceLoopCycleFinished_m3129FE90C1DC4ECA149F7503D06D9D0C8456A47E (void);
+// 0x00000010 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController::Awake()
+extern void AnimationSequencerController_Awake_m5FECC6861796B5E34373823060594612D5D4F808 (void);
+// 0x00000011 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController::OnDestroy()
+extern void AnimationSequencerController_OnDestroy_m506F626EC86D007872408F1D9223BF68576EFF6E (void);
+// 0x00000012 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController::Play(System.Action)
+extern void AnimationSequencerController_Play_m4BD4B0794DB2C6C1A3249C925DE3F68BF156F56E (void);
+// 0x00000013 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController::TogglePause()
+extern void AnimationSequencerController_TogglePause_m8ED99C1B2D723CF13B92A35812594A82CE42ACE6 (void);
+// 0x00000014 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController::Pause()
+extern void AnimationSequencerController_Pause_m2F08B80FB7737A10B69683FC0028D88735271DE5 (void);
+// 0x00000015 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController::Resume()
+extern void AnimationSequencerController_Resume_m1A867B0D0E31692D55CDAC75409A323E1C3E30E8 (void);
+// 0x00000016 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController::Complete(System.Boolean)
+extern void AnimationSequencerController_Complete_mDED041C7FE9B53EA6DF756A09A228E16AFA15D11 (void);
+// 0x00000017 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController::Rewind(System.Boolean)
+extern void AnimationSequencerController_Rewind_m8A4EB0C6959979ED30995C535A4D786826D799C4 (void);
+// 0x00000018 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController::Kill(System.Boolean)
+extern void AnimationSequencerController_Kill_m98F52370B32087FB2EDD11981080923C47DDC874 (void);
+// 0x00000019 System.Collections.IEnumerator BrunoMikoski.AnimationSequencer.AnimationSequencerController::PlayEnumerator()
+extern void AnimationSequencerController_PlayEnumerator_m81FE35B750C995E6AC5D4DA55B13430E3D4D3F4D (void);
+// 0x0000001A DG.Tweening.Sequence BrunoMikoski.AnimationSequencer.AnimationSequencerController::GenerateSequence()
+extern void AnimationSequencerController_GenerateSequence_mD086CD9F887A81D3FC6BD4A264E39B2FA62449FE (void);
+// 0x0000001B BrunoMikoski.AnimationSequencer.AnimationSequencerController BrunoMikoski.AnimationSequencer.AnimationSequencerController::GetControllerByTagKey(System.String)
+extern void AnimationSequencerController_GetControllerByTagKey_mD5431A4D0FE51BA1C7BC4806A8D9D07F23C6A4D5 (void);
+// 0x0000001C BrunoMikoski.AnimationSequencer.AnimationStepBase BrunoMikoski.AnimationSequencer.AnimationSequencerController::GetStepByTagKey(System.String)
+extern void AnimationSequencerController_GetStepByTagKey_m339BA7929013BDA1877CE54CDE356A8543B0B176 (void);
+// 0x0000001D System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController::.ctor()
+extern void AnimationSequencerController__ctor_m8D7E49E920F18B80E3B6936BB7F794742D5DF4B5 (void);
+// 0x0000001E System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController/<PlayEnumerator>d__52::.ctor(System.Int32)
+extern void U3CPlayEnumeratorU3Ed__52__ctor_m71671D986DDA71CD64DBC7019CC9596F10746C21 (void);
+// 0x0000001F System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController/<PlayEnumerator>d__52::System.IDisposable.Dispose()
+extern void U3CPlayEnumeratorU3Ed__52_System_IDisposable_Dispose_m5321C187D989DB6DBBAD28A48F314ED80F91694F (void);
+// 0x00000020 System.Boolean BrunoMikoski.AnimationSequencer.AnimationSequencerController/<PlayEnumerator>d__52::MoveNext()
+extern void U3CPlayEnumeratorU3Ed__52_MoveNext_m11B552FC39EBDA8A188BB117A1147E8D7A6CAD3E (void);
+// 0x00000021 System.Object BrunoMikoski.AnimationSequencer.AnimationSequencerController/<PlayEnumerator>d__52::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CPlayEnumeratorU3Ed__52_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF92CC534A99BBEE2889ED9911E7091EB51C526BA (void);
+// 0x00000022 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController/<PlayEnumerator>d__52::System.Collections.IEnumerator.Reset()
+extern void U3CPlayEnumeratorU3Ed__52_System_Collections_IEnumerator_Reset_mA34F9D6B27B8FAFC6B83B7BCD8AB1D2FCCB05743 (void);
+// 0x00000023 System.Object BrunoMikoski.AnimationSequencer.AnimationSequencerController/<PlayEnumerator>d__52::System.Collections.IEnumerator.get_Current()
+extern void U3CPlayEnumeratorU3Ed__52_System_Collections_IEnumerator_get_Current_m3D203771DF25A02B7607C7B157DF3F40F373B4A4 (void);
+// 0x00000024 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController/<>c__DisplayClass53_0::.ctor()
+extern void U3CU3Ec__DisplayClass53_0__ctor_m043B87F96CF409E8558937EB02D9F9F8BAA3CAC4 (void);
+// 0x00000025 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController/<>c__DisplayClass53_0::<GenerateSequence>b__0()
+extern void U3CU3Ec__DisplayClass53_0_U3CGenerateSequenceU3Eb__0_mB9B3B8A2B97C7C656C29686C0D84B1A4615D26D7 (void);
+// 0x00000026 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController/<>c__DisplayClass53_0::<GenerateSequence>b__1()
+extern void U3CU3Ec__DisplayClass53_0_U3CGenerateSequenceU3Eb__1_m01E46D97FE32A7F7572E791A93E021771A932E38 (void);
+// 0x00000027 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController/<>c__DisplayClass53_0::<GenerateSequence>b__2()
+extern void U3CU3Ec__DisplayClass53_0_U3CGenerateSequenceU3Eb__2_mCB8C160EC2A90525CFA4D45403EB30ACA5C7EC6F (void);
+// 0x00000028 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController/<>c__DisplayClass53_0::<GenerateSequence>b__3()
+extern void U3CU3Ec__DisplayClass53_0_U3CGenerateSequenceU3Eb__3_mAE2D46BB3EFC5DD4584E1B4082204FF8D5350767 (void);
+// 0x00000029 System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController/<>c__DisplayClass53_0::<GenerateSequence>b__5()
+extern void U3CU3Ec__DisplayClass53_0_U3CGenerateSequenceU3Eb__5_mD39911D911C34E3E481A6E2743ABF4FC6F344CB2 (void);
+// 0x0000002A System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController/<>c__DisplayClass53_0::<GenerateSequence>b__4()
+extern void U3CU3Ec__DisplayClass53_0_U3CGenerateSequenceU3Eb__4_mE89D8E2B571745337D02C3BDB7B30F6F9C9B2319 (void);
+// 0x0000002B System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController/<>c__DisplayClass53_0::<GenerateSequence>b__6()
+extern void U3CU3Ec__DisplayClass53_0_U3CGenerateSequenceU3Eb__6_m5C40EFCEF5424FE33D8C8A32619943AC8D0DB6F1 (void);
+// 0x0000002C System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController/<>c__DisplayClass54_0::.ctor()
+extern void U3CU3Ec__DisplayClass54_0__ctor_m9BE6B75239E72013476BABD363119C1552D490C5 (void);
+// 0x0000002D System.Boolean BrunoMikoski.AnimationSequencer.AnimationSequencerController/<>c__DisplayClass54_0::<GetControllerByTagKey>b__0(BrunoMikoski.AnimationSequencer.AnimationSequencerController)
+extern void U3CU3Ec__DisplayClass54_0_U3CGetControllerByTagKeyU3Eb__0_m4B96608ABEC887131DCB3E8EDE1AA03B81719187 (void);
+// 0x0000002E System.Void BrunoMikoski.AnimationSequencer.AnimationSequencerController/<>c__DisplayClass55_0::.ctor()
+extern void U3CU3Ec__DisplayClass55_0__ctor_m58511F516BBDC646AC0EA983DE4C4233747F5689 (void);
+// 0x0000002F System.Boolean BrunoMikoski.AnimationSequencer.AnimationSequencerController/<>c__DisplayClass55_0::<GetStepByTagKey>b__0(BrunoMikoski.AnimationSequencer.AnimationStepBase)
+extern void U3CU3Ec__DisplayClass55_0_U3CGetStepByTagKeyU3Eb__0_m9DBBE061BC926211E0019F2652E09FBBE0C595AD (void);
+// 0x00000030 DG.Tweening.Ease BrunoMikoski.AnimationSequencer.CustomEase::get_Ease()
+extern void CustomEase_get_Ease_m33C6218A619672ECDAF2362EACF083A4A6F02A70 (void);
+// 0x00000031 System.Boolean BrunoMikoski.AnimationSequencer.CustomEase::get_UseCustomCurve()
+extern void CustomEase_get_UseCustomCurve_m1B749C0E4A923A7ADE3B5C0042FFA36707A8E42F (void);
+// 0x00000032 System.Void BrunoMikoski.AnimationSequencer.CustomEase::.ctor(UnityEngine.AnimationCurve)
+extern void CustomEase__ctor_m3B7FF88ED858CC3EEA001C7FFE2287708442A6E2 (void);
+// 0x00000033 System.Void BrunoMikoski.AnimationSequencer.CustomEase::.ctor(DG.Tweening.Ease)
+extern void CustomEase__ctor_mE9FE97A912BCD5439D29A817BC8B1C7557BFEB06 (void);
+// 0x00000034 System.Void BrunoMikoski.AnimationSequencer.CustomEase::.ctor()
+extern void CustomEase__ctor_mCE76B6DDC089616D7A25D3CF2E586CF218427584 (void);
+// 0x00000035 System.Single BrunoMikoski.AnimationSequencer.CustomEase::Lerp(System.Single,System.Single,System.Single)
+extern void CustomEase_Lerp_mC4494C361D40480A57A41824B97D87EE359E0B17 (void);
+// 0x00000036 System.Single BrunoMikoski.AnimationSequencer.CustomEase::LerpUnclamped(System.Single,System.Single,System.Single)
+extern void CustomEase_LerpUnclamped_mF9B49C78E07FF6EA289E415768172331D2169358 (void);
+// 0x00000037 System.Single BrunoMikoski.AnimationSequencer.CustomEase::Evaluate(System.Single,System.Single,System.Single)
+extern void CustomEase_Evaluate_m6FEAD829A15A267942FEDC713654D1E1CEB04848 (void);
+// 0x00000038 System.Void BrunoMikoski.AnimationSequencer.CustomEase::ApplyTo(DG.Tweening.TweenParams)
+extern void CustomEase_ApplyTo_m648238B51D9B2DEF1C95B8A5164D99DD39E31639 (void);
+// 0x00000039 System.Void BrunoMikoski.AnimationSequencer.CustomEase::ApplyTo(T)
+// 0x0000003A System.Boolean BrunoMikoski.AnimationSequencer.CustomEase::Equals(BrunoMikoski.AnimationSequencer.CustomEase)
+extern void CustomEase_Equals_mE50A0BCB138C5BC845A6EDCE47D3B4F317EAB38F (void);
+// 0x0000003B System.Boolean BrunoMikoski.AnimationSequencer.CustomEase::Equals(System.Object)
+extern void CustomEase_Equals_m6F183866485500A664A75A50C8F09B5F2B0CE4B7 (void);
+// 0x0000003C System.Int32 BrunoMikoski.AnimationSequencer.CustomEase::GetHashCode()
+extern void CustomEase_GetHashCode_m91AD40E47E581E4510702D15AD962282F33477FD (void);
+// 0x0000003D BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_Linear()
+extern void CustomEase_get_Linear_m9437C130B7CABDFA2F3F83963ED8FD60562D01E5 (void);
+// 0x0000003E BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InSine()
+extern void CustomEase_get_InSine_m248A8351332224454BDE9379B6EDEABDE1898358 (void);
+// 0x0000003F BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_OutSine()
+extern void CustomEase_get_OutSine_mE80E856BFC63143215B4B31CDDC58C56364445B7 (void);
+// 0x00000040 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InOutSine()
+extern void CustomEase_get_InOutSine_mFBBFF3DECC84F576DE313D2E45A536198391C847 (void);
+// 0x00000041 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InQuad()
+extern void CustomEase_get_InQuad_m52CD40E694BF831D07640338AD39291E7CF92683 (void);
+// 0x00000042 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_OutQuad()
+extern void CustomEase_get_OutQuad_m286A4F9CF88F90BC7A631C2F12127B6846F34CE8 (void);
+// 0x00000043 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InOutQuad()
+extern void CustomEase_get_InOutQuad_mC1360ED3CD2BF475B00CE202F65AF359E48A5B5C (void);
+// 0x00000044 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InCubic()
+extern void CustomEase_get_InCubic_m68AE1B7D5FAC519EB70B17075679D9929ABF1E30 (void);
+// 0x00000045 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_OutCubic()
+extern void CustomEase_get_OutCubic_m63246D93BBEBE2B9721C017A30766390224780CC (void);
+// 0x00000046 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InOutCubic()
+extern void CustomEase_get_InOutCubic_m0A51530094B20B0430B6AF26A236C043AE5F43BC (void);
+// 0x00000047 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InQuart()
+extern void CustomEase_get_InQuart_m6588FA327F7DF98DB9153FD608AA22AC16A12F8C (void);
+// 0x00000048 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_OutQuart()
+extern void CustomEase_get_OutQuart_m26F0C595DCF72904A01C8D5D964C600DD82ECEBF (void);
+// 0x00000049 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InOutQuart()
+extern void CustomEase_get_InOutQuart_mD8CE7B255C4E1F72143F092E77AA9C2134A05681 (void);
+// 0x0000004A BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InQuint()
+extern void CustomEase_get_InQuint_mC515976F82D7C34A7631515A34972733E6BD3B25 (void);
+// 0x0000004B BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_OutQuint()
+extern void CustomEase_get_OutQuint_m2C767FBECE6DBDB21EE1909AD6536F6B72964B11 (void);
+// 0x0000004C BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InOutQuint()
+extern void CustomEase_get_InOutQuint_m0BF10E188716D8A1DEE9DACC9C8FB497B42DED66 (void);
+// 0x0000004D BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InExpo()
+extern void CustomEase_get_InExpo_m5B2654D8FB2FD1310E88C7142A0918AB60F9B175 (void);
+// 0x0000004E BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_OutExpo()
+extern void CustomEase_get_OutExpo_mA3F337459CE9E69D6150C3B0DACEDE4A9CC4CB13 (void);
+// 0x0000004F BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InOutExpo()
+extern void CustomEase_get_InOutExpo_m12BF4F0B92706C8B450B604B16116122A9C318CE (void);
+// 0x00000050 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InCirc()
+extern void CustomEase_get_InCirc_m34991BA027D5D175F7C2DEC182BFA271DE6C30F6 (void);
+// 0x00000051 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_OutCirc()
+extern void CustomEase_get_OutCirc_m8C1CA0FE1998C0000D1AADBC74F2C994837D289F (void);
+// 0x00000052 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InOutCirc()
+extern void CustomEase_get_InOutCirc_m8E2E402D599EEBA3CB39DDA4CD9CCD045093693B (void);
+// 0x00000053 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InElastic()
+extern void CustomEase_get_InElastic_m0549B57C0274B3500D1A2588B9F2A22A5A6D1C31 (void);
+// 0x00000054 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_OutElastic()
+extern void CustomEase_get_OutElastic_mDBA212CE78A04BC59564F108A7C4DCFE8AE98761 (void);
+// 0x00000055 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InOutElastic()
+extern void CustomEase_get_InOutElastic_m4977C5B3A19FE13C0C37908855E3E8C9A3080DE2 (void);
+// 0x00000056 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InBack()
+extern void CustomEase_get_InBack_mAE27FBF192E66DEA7209957CAB00DE23162609E2 (void);
+// 0x00000057 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_OutBack()
+extern void CustomEase_get_OutBack_m384525C5728B575CCA1B791D00D0B1ACEE3B0FB3 (void);
+// 0x00000058 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InOutBack()
+extern void CustomEase_get_InOutBack_mAF9C67A6B4D07076C6AE8C0FADCC9C0A55BCD9FA (void);
+// 0x00000059 BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InBounce()
+extern void CustomEase_get_InBounce_m911A15E0EAC93EE88A929C7CD4D9A1F273FF6A3F (void);
+// 0x0000005A BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_OutBounce()
+extern void CustomEase_get_OutBounce_m2033F0D7946627940744D58D3D82FBD25651344F (void);
+// 0x0000005B BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InOutBounce()
+extern void CustomEase_get_InOutBounce_m4993E191450BCCD8A38097CEE186AEFC421B0067 (void);
+// 0x0000005C BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_Flash()
+extern void CustomEase_get_Flash_m1D89AAE2DA3ED8E074C7C2FD7B9F5857D356502D (void);
+// 0x0000005D BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InFlash()
+extern void CustomEase_get_InFlash_mD71D666BFABA63F8CDED8D607ED945E6B8BC6C4F (void);
+// 0x0000005E BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_OutFlash()
+extern void CustomEase_get_OutFlash_mD7E448D45C346244B8DF0E596AEC19B0C8FD7139 (void);
+// 0x0000005F BrunoMikoski.AnimationSequencer.CustomEase BrunoMikoski.AnimationSequencer.CustomEase::get_InOutFlash()
+extern void CustomEase_get_InOutFlash_mFBD9BCCABC23DDC3E127584B9FB2652724398D8E (void);
+// 0x00000060 System.Type BrunoMikoski.AnimationSequencer.AnchoredPositionMoveDOTweenActionBase::get_TargetComponentType()
+extern void AnchoredPositionMoveDOTweenActionBase_get_TargetComponentType_mCE959ABBEA92244B9960AC9A3224F5337B405240 (void);
+// 0x00000061 DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.AnchoredPositionMoveDOTweenActionBase::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void AnchoredPositionMoveDOTweenActionBase_GenerateTween_Internal_mD93FEA9B186F5BD4930DED6BD88252579142076E (void);
+// 0x00000062 UnityEngine.Vector2 BrunoMikoski.AnimationSequencer.AnchoredPositionMoveDOTweenActionBase::GetPosition()
+// 0x00000063 System.Void BrunoMikoski.AnimationSequencer.AnchoredPositionMoveDOTweenActionBase::.ctor()
+extern void AnchoredPositionMoveDOTweenActionBase__ctor_m2F26E25CBFC58B9646A55854D605F91F8A96B8F1 (void);
+// 0x00000064 System.String BrunoMikoski.AnimationSequencer.AnchoredPositionMoveToPositionDOTweenActionBase::get_DisplayName()
+extern void AnchoredPositionMoveToPositionDOTweenActionBase_get_DisplayName_mECA360E87FE4CB6B44DDFB1C586447B4C6B51C85 (void);
+// 0x00000065 UnityEngine.Vector2 BrunoMikoski.AnimationSequencer.AnchoredPositionMoveToPositionDOTweenActionBase::GetPosition()
+extern void AnchoredPositionMoveToPositionDOTweenActionBase_GetPosition_m3AE80619F9D456A0AB328F7C06F2A92D989DFB97 (void);
+// 0x00000066 System.Void BrunoMikoski.AnimationSequencer.AnchoredPositionMoveToPositionDOTweenActionBase::.ctor()
+extern void AnchoredPositionMoveToPositionDOTweenActionBase__ctor_m271684605CEE20750CA103ABD05EA9CE01C3A87A (void);
+// 0x00000067 System.String BrunoMikoski.AnimationSequencer.AnchoredPositionMoveToRectTransformPositionDOTweenActionBase::get_DisplayName()
+extern void AnchoredPositionMoveToRectTransformPositionDOTweenActionBase_get_DisplayName_m31DF49938042DEA4FFF93052912BF77277F7F12B (void);
+// 0x00000068 UnityEngine.Vector2 BrunoMikoski.AnimationSequencer.AnchoredPositionMoveToRectTransformPositionDOTweenActionBase::GetPosition()
+extern void AnchoredPositionMoveToRectTransformPositionDOTweenActionBase_GetPosition_m8D12C021350B1FC3AE8034D6455A65792CF14F73 (void);
+// 0x00000069 System.Void BrunoMikoski.AnimationSequencer.AnchoredPositionMoveToRectTransformPositionDOTweenActionBase::.ctor()
+extern void AnchoredPositionMoveToRectTransformPositionDOTweenActionBase__ctor_mA9F27548B6EB1009E5E4A9F23A9F7D0CFF7023AB (void);
+// 0x0000006A System.Type BrunoMikoski.AnimationSequencer.ColorGraphicDOTWeen::get_TargetComponentType()
+extern void ColorGraphicDOTWeen_get_TargetComponentType_m2D2A734F38F2747ED72156EDFA164FED25906344 (void);
+// 0x0000006B System.String BrunoMikoski.AnimationSequencer.ColorGraphicDOTWeen::get_DisplayName()
+extern void ColorGraphicDOTWeen_get_DisplayName_m775C7CBCCB0629394119B9033C710344C4F81B68 (void);
+// 0x0000006C DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.ColorGraphicDOTWeen::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void ColorGraphicDOTWeen_GenerateTween_Internal_m75C9F04605CD475996CEBFF92E660593E4B34572 (void);
+// 0x0000006D System.Void BrunoMikoski.AnimationSequencer.ColorGraphicDOTWeen::.ctor()
+extern void ColorGraphicDOTWeen__ctor_mF1B22C38984422AC0B87192A1A2A238A584577BC (void);
+// 0x0000006E System.Type BrunoMikoski.AnimationSequencer.DOTweenActionBase::get_TargetComponentType()
+extern void DOTweenActionBase_get_TargetComponentType_m67173D408F823D689EC50F079A83F08348C827AC (void);
+// 0x0000006F System.String BrunoMikoski.AnimationSequencer.DOTweenActionBase::get_DisplayName()
+// 0x00000070 DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.DOTweenActionBase::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+// 0x00000071 DG.Tweening.Tween BrunoMikoski.AnimationSequencer.DOTweenActionBase::GenerateTween(UnityEngine.GameObject,System.Single)
+extern void DOTweenActionBase_GenerateTween_m9DA988914B05A47454C4DE7CB7F9372FEC84DABD (void);
+// 0x00000072 System.Void BrunoMikoski.AnimationSequencer.DOTweenActionBase::.ctor()
+extern void DOTweenActionBase__ctor_m44AA22F6A1DCB685598A6FF21E35002F18DDB882 (void);
+// 0x00000073 System.Type BrunoMikoski.AnimationSequencer.FadeCanvasGroupDOTweenAction::get_TargetComponentType()
+extern void FadeCanvasGroupDOTweenAction_get_TargetComponentType_mA363468A494883A08421E46574F743B6EF67E688 (void);
+// 0x00000074 System.String BrunoMikoski.AnimationSequencer.FadeCanvasGroupDOTweenAction::get_DisplayName()
+extern void FadeCanvasGroupDOTweenAction_get_DisplayName_m7E1D3A867AB60BA018F8C3FF75E61BC28094CE10 (void);
+// 0x00000075 DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.FadeCanvasGroupDOTweenAction::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void FadeCanvasGroupDOTweenAction_GenerateTween_Internal_m87DF83CD42E2DF59FCC7EF059EB551B16E7E7C71 (void);
+// 0x00000076 System.Void BrunoMikoski.AnimationSequencer.FadeCanvasGroupDOTweenAction::.ctor()
+extern void FadeCanvasGroupDOTweenAction__ctor_mD88D3F43884B3333A0D7E83B24678195CEE98BD1 (void);
+// 0x00000077 System.Type BrunoMikoski.AnimationSequencer.FadeGraphicDOTweenAction::get_TargetComponentType()
+extern void FadeGraphicDOTweenAction_get_TargetComponentType_mDE72A5746821F4DA2EF3BD7A177174B9235F1B49 (void);
+// 0x00000078 System.String BrunoMikoski.AnimationSequencer.FadeGraphicDOTweenAction::get_DisplayName()
+extern void FadeGraphicDOTweenAction_get_DisplayName_mF8E0E8258AA26188BD6D84352F340355497FC723 (void);
+// 0x00000079 DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.FadeGraphicDOTweenAction::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void FadeGraphicDOTweenAction_GenerateTween_Internal_m1C633A198DEE9EC2FBD01A38607CEA5276C56CF1 (void);
+// 0x0000007A System.Void BrunoMikoski.AnimationSequencer.FadeGraphicDOTweenAction::.ctor()
+extern void FadeGraphicDOTweenAction__ctor_m53EF52C7567BA2D0E5C662C262C46C2D5BEDE0DC (void);
+// 0x0000007B System.Type BrunoMikoski.AnimationSequencer.FillImageDOTweenAction::get_TargetComponentType()
+extern void FillImageDOTweenAction_get_TargetComponentType_mFC6760A69F022981F0B65FFB85BD510B1C0D713D (void);
+// 0x0000007C System.String BrunoMikoski.AnimationSequencer.FillImageDOTweenAction::get_DisplayName()
+extern void FillImageDOTweenAction_get_DisplayName_mD9DAB31271EE6BE4CCABDF02E062B8D4B0069909 (void);
+// 0x0000007D DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.FillImageDOTweenAction::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void FillImageDOTweenAction_GenerateTween_Internal_m4ADBDF7B45944F7C2BFD61D97E61D5F5E6E9ADE4 (void);
+// 0x0000007E System.Void BrunoMikoski.AnimationSequencer.FillImageDOTweenAction::.ctor()
+extern void FillImageDOTweenAction__ctor_mF0F9FF9AAEAC9D26DB247578E5EF26F9BBDC8E18 (void);
+// 0x0000007F System.Type BrunoMikoski.AnimationSequencer.MoveDOTweenActionBase::get_TargetComponentType()
+extern void MoveDOTweenActionBase_get_TargetComponentType_m446DF8C7C99D2521AF79ED95F2371B5FFD180939 (void);
+// 0x00000080 System.String BrunoMikoski.AnimationSequencer.MoveDOTweenActionBase::get_DisplayName()
+extern void MoveDOTweenActionBase_get_DisplayName_m133715D05342C3A9FC162BD8EEF17F4127313C25 (void);
+// 0x00000081 DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.MoveDOTweenActionBase::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void MoveDOTweenActionBase_GenerateTween_Internal_m2D7A3D8620E8A9F55EE68930B1C8CB3D336B8C17 (void);
+// 0x00000082 UnityEngine.Vector3 BrunoMikoski.AnimationSequencer.MoveDOTweenActionBase::GetPosition()
+// 0x00000083 System.Void BrunoMikoski.AnimationSequencer.MoveDOTweenActionBase::.ctor()
+extern void MoveDOTweenActionBase__ctor_mAF51F96502A58427D1CD5EC556FFAAAE171A8D19 (void);
+// 0x00000084 System.Type BrunoMikoski.AnimationSequencer.MoveToPositionDOTweenActionBase::get_TargetComponentType()
+extern void MoveToPositionDOTweenActionBase_get_TargetComponentType_mF0A567B5378CC66090D3E150D83DE7C133C52C5B (void);
+// 0x00000085 System.String BrunoMikoski.AnimationSequencer.MoveToPositionDOTweenActionBase::get_DisplayName()
+extern void MoveToPositionDOTweenActionBase_get_DisplayName_m9C1227D35B4838F9ED6D4F9D16D03FBA5EC697B4 (void);
+// 0x00000086 UnityEngine.Vector3 BrunoMikoski.AnimationSequencer.MoveToPositionDOTweenActionBase::GetPosition()
+extern void MoveToPositionDOTweenActionBase_GetPosition_m10049BEA24F8A862C6F302BBADC5D976400059D8 (void);
+// 0x00000087 System.Void BrunoMikoski.AnimationSequencer.MoveToPositionDOTweenActionBase::.ctor()
+extern void MoveToPositionDOTweenActionBase__ctor_m2372B9D5F155298DD48A761D7457C06B5A44F466 (void);
+// 0x00000088 System.Type BrunoMikoski.AnimationSequencer.MoveToTargetDOTweenActionBase::get_TargetComponentType()
+extern void MoveToTargetDOTweenActionBase_get_TargetComponentType_m79CD7CCA6C0E424E9520520733918FCAD10BB90F (void);
+// 0x00000089 System.String BrunoMikoski.AnimationSequencer.MoveToTargetDOTweenActionBase::get_DisplayName()
+extern void MoveToTargetDOTweenActionBase_get_DisplayName_mC26CC9E0C69D5106273060E38D3BF36B55863B64 (void);
+// 0x0000008A UnityEngine.Vector3 BrunoMikoski.AnimationSequencer.MoveToTargetDOTweenActionBase::GetPosition()
+extern void MoveToTargetDOTweenActionBase_GetPosition_m4AAE886F3A04429752CDA79EA00BCCE36F243EEA (void);
+// 0x0000008B System.Void BrunoMikoski.AnimationSequencer.MoveToTargetDOTweenActionBase::.ctor()
+extern void MoveToTargetDOTweenActionBase__ctor_mBB1CA5D2E35EBEC8BD0952225D335790FCCABEF5 (void);
+// 0x0000008C System.Type BrunoMikoski.AnimationSequencer.PathDOTweenActionBase::get_TargetComponentType()
+extern void PathDOTweenActionBase_get_TargetComponentType_mF1463E741C6659FF353A354FB727366ADDCB56FE (void);
+// 0x0000008D DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.PathDOTweenActionBase::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void PathDOTweenActionBase_GenerateTween_Internal_mD4E3782C3A22AB4EFA2211C2DD111CF85EC912F3 (void);
+// 0x0000008E UnityEngine.Vector3[] BrunoMikoski.AnimationSequencer.PathDOTweenActionBase::GetPathPositions()
+// 0x0000008F System.Void BrunoMikoski.AnimationSequencer.PathDOTweenActionBase::.ctor()
+extern void PathDOTweenActionBase__ctor_mACCB11184F31F63BA3D31F4683C7E8AB078299CC (void);
+// 0x00000090 System.String BrunoMikoski.AnimationSequencer.PathPositionDOTweenActionBase::get_DisplayName()
+extern void PathPositionDOTweenActionBase_get_DisplayName_m417BDF74557DB81BEF117B22EAB5E45D21DF87DE (void);
+// 0x00000091 UnityEngine.Vector3[] BrunoMikoski.AnimationSequencer.PathPositionDOTweenActionBase::GetPathPositions()
+extern void PathPositionDOTweenActionBase_GetPathPositions_mB70B5A5B603B42D3E6AEE886C6EDB2BF206C263D (void);
+// 0x00000092 System.Void BrunoMikoski.AnimationSequencer.PathPositionDOTweenActionBase::.ctor()
+extern void PathPositionDOTweenActionBase__ctor_m38FEBE161C656C01B64D6C2253B9170A574ECD1A (void);
+// 0x00000093 System.String BrunoMikoski.AnimationSequencer.PathTransformPositionsDOTweenActionBase::get_DisplayName()
+extern void PathTransformPositionsDOTweenActionBase_get_DisplayName_m1560125DCD8C2CABCF522A47053FF98CCD398758 (void);
+// 0x00000094 UnityEngine.Vector3[] BrunoMikoski.AnimationSequencer.PathTransformPositionsDOTweenActionBase::GetPathPositions()
+extern void PathTransformPositionsDOTweenActionBase_GetPathPositions_m90C3F5C7BBC4DA64834DF5ACEA09E8EB77C45E99 (void);
+// 0x00000095 System.Void BrunoMikoski.AnimationSequencer.PathTransformPositionsDOTweenActionBase::.ctor()
+extern void PathTransformPositionsDOTweenActionBase__ctor_m53CFD3430FFD6F49A50E57F06ABA07F1B7EFC160 (void);
+// 0x00000096 System.Type BrunoMikoski.AnimationSequencer.PunchPositionDOTweenAction::get_TargetComponentType()
+extern void PunchPositionDOTweenAction_get_TargetComponentType_m28CAD3CBC040DFBA3BBA727B373DF2A121FDFC69 (void);
+// 0x00000097 System.String BrunoMikoski.AnimationSequencer.PunchPositionDOTweenAction::get_DisplayName()
+extern void PunchPositionDOTweenAction_get_DisplayName_m607767E6A171A372A719CFC45EDB79EC7FB941C7 (void);
+// 0x00000098 DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.PunchPositionDOTweenAction::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void PunchPositionDOTweenAction_GenerateTween_Internal_m8E749CE2E0969E9E07ACB4BD9A3ADFEDE45BE48A (void);
+// 0x00000099 System.Void BrunoMikoski.AnimationSequencer.PunchPositionDOTweenAction::.ctor()
+extern void PunchPositionDOTweenAction__ctor_m920427F5A22DF78B9C81D39FADBCF4D8DB3246EC (void);
+// 0x0000009A System.Type BrunoMikoski.AnimationSequencer.PunchRotationDOTweenAction::get_TargetComponentType()
+extern void PunchRotationDOTweenAction_get_TargetComponentType_m09262C6E4EE6CA21A02311DD01D6F3EB3B6475CF (void);
+// 0x0000009B System.String BrunoMikoski.AnimationSequencer.PunchRotationDOTweenAction::get_DisplayName()
+extern void PunchRotationDOTweenAction_get_DisplayName_m83712554A3563A14FC7071FF0FD0D16F12E06E6C (void);
+// 0x0000009C DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.PunchRotationDOTweenAction::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void PunchRotationDOTweenAction_GenerateTween_Internal_mE7C4E61982EB96F0062AB4BEBE245BA2827DBFA3 (void);
+// 0x0000009D System.Void BrunoMikoski.AnimationSequencer.PunchRotationDOTweenAction::.ctor()
+extern void PunchRotationDOTweenAction__ctor_m5E98D5D2FE1F1BA338751CDCDA1ECF0FD77F391F (void);
+// 0x0000009E System.String BrunoMikoski.AnimationSequencer.PunchScaleDOTweenAction::get_DisplayName()
+extern void PunchScaleDOTweenAction_get_DisplayName_m3D61530E0C19C3C537A77A949C654B75F0407405 (void);
+// 0x0000009F System.Type BrunoMikoski.AnimationSequencer.PunchScaleDOTweenAction::get_TargetComponentType()
+extern void PunchScaleDOTweenAction_get_TargetComponentType_mAF39364FD481827BD14F9DD229BC7DA9256D6B66 (void);
+// 0x000000A0 DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.PunchScaleDOTweenAction::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void PunchScaleDOTweenAction_GenerateTween_Internal_m460DEF773BF7CBE379CE0F61FF993A644DE6F8C8 (void);
+// 0x000000A1 System.Void BrunoMikoski.AnimationSequencer.PunchScaleDOTweenAction::.ctor()
+extern void PunchScaleDOTweenAction__ctor_m62369BF3025C4265F5E3E08DE7EC0640D1D84BCA (void);
+// 0x000000A2 System.Type BrunoMikoski.AnimationSequencer.RotateDOTweenActionBase::get_TargetComponentType()
+extern void RotateDOTweenActionBase_get_TargetComponentType_m01D2A614B1204BF2B9960E76D9875D1697E20D4E (void);
+// 0x000000A3 System.String BrunoMikoski.AnimationSequencer.RotateDOTweenActionBase::get_DisplayName()
+extern void RotateDOTweenActionBase_get_DisplayName_mF85700E615B74EEB5D3522F41947B2A855C2149E (void);
+// 0x000000A4 DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.RotateDOTweenActionBase::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void RotateDOTweenActionBase_GenerateTween_Internal_m98449F5B09D055C91D81F3701BE339D49528D11C (void);
+// 0x000000A5 UnityEngine.Vector3 BrunoMikoski.AnimationSequencer.RotateDOTweenActionBase::GetRotation()
+// 0x000000A6 System.Void BrunoMikoski.AnimationSequencer.RotateDOTweenActionBase::.ctor()
+extern void RotateDOTweenActionBase__ctor_mD62B809611E2FCEBDEA2E9B245E4660A174832C7 (void);
+// 0x000000A7 System.String BrunoMikoski.AnimationSequencer.RotateToEulerAnglesFromTransformRotateDOTweenAction::get_DisplayName()
+extern void RotateToEulerAnglesFromTransformRotateDOTweenAction_get_DisplayName_m91D2114DC77F04AE1B886FCA30EDB26260600359 (void);
+// 0x000000A8 UnityEngine.Vector3 BrunoMikoski.AnimationSequencer.RotateToEulerAnglesFromTransformRotateDOTweenAction::GetRotation()
+extern void RotateToEulerAnglesFromTransformRotateDOTweenAction_GetRotation_m0E7A758BB66F6DB53C28974A613E1FA4C391DB83 (void);
+// 0x000000A9 System.Void BrunoMikoski.AnimationSequencer.RotateToEulerAnglesFromTransformRotateDOTweenAction::.ctor()
+extern void RotateToEulerAnglesFromTransformRotateDOTweenAction__ctor_m9CF750AD49B430BA92B5BA4D8CB0689857B4A554 (void);
+// 0x000000AA System.Type BrunoMikoski.AnimationSequencer.RotateToEulerAnglesRotateDOTweenAction::get_TargetComponentType()
+extern void RotateToEulerAnglesRotateDOTweenAction_get_TargetComponentType_m2731447C030A946938C2B77A1AC38702B7353D63 (void);
+// 0x000000AB System.String BrunoMikoski.AnimationSequencer.RotateToEulerAnglesRotateDOTweenAction::get_DisplayName()
+extern void RotateToEulerAnglesRotateDOTweenAction_get_DisplayName_m614514763F727CB5B02233F4075FEBE8A971F670 (void);
+// 0x000000AC UnityEngine.Vector3 BrunoMikoski.AnimationSequencer.RotateToEulerAnglesRotateDOTweenAction::GetRotation()
+extern void RotateToEulerAnglesRotateDOTweenAction_GetRotation_m472D6A4C373C2E7DD1D5EC4EE008F39AED5CB7D1 (void);
+// 0x000000AD System.Void BrunoMikoski.AnimationSequencer.RotateToEulerAnglesRotateDOTweenAction::.ctor()
+extern void RotateToEulerAnglesRotateDOTweenAction__ctor_m48B0A1DEB18598F4E1092576534172B7B913101E (void);
+// 0x000000AE System.Type BrunoMikoski.AnimationSequencer.ScaleDOTweenAction::get_TargetComponentType()
+extern void ScaleDOTweenAction_get_TargetComponentType_m3007E6739F401EA5E332C2A9D920083ACE2C940E (void);
+// 0x000000AF System.String BrunoMikoski.AnimationSequencer.ScaleDOTweenAction::get_DisplayName()
+extern void ScaleDOTweenAction_get_DisplayName_mCE4BCB24EFAF9818A515C493469372E2BBB09574 (void);
+// 0x000000B0 DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.ScaleDOTweenAction::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void ScaleDOTweenAction_GenerateTween_Internal_m5AC3395ECCB216D45023D01651565591A4B3ACA6 (void);
+// 0x000000B1 System.Void BrunoMikoski.AnimationSequencer.ScaleDOTweenAction::.ctor()
+extern void ScaleDOTweenAction__ctor_m9DFD15FD5EFC615A92947C2E5B43FC1F156D303A (void);
+// 0x000000B2 System.Type BrunoMikoski.AnimationSequencer.ShakePositionDOTweenAction::get_TargetComponentType()
+extern void ShakePositionDOTweenAction_get_TargetComponentType_mAADA503D3B2D0629DD5E91CD018AE54DDC336D3D (void);
+// 0x000000B3 System.String BrunoMikoski.AnimationSequencer.ShakePositionDOTweenAction::get_DisplayName()
+extern void ShakePositionDOTweenAction_get_DisplayName_m46A595810647DD9F50CE500DA94BF0406FA8BB25 (void);
+// 0x000000B4 DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.ShakePositionDOTweenAction::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void ShakePositionDOTweenAction_GenerateTween_Internal_m74063E222B599B6DD248619EBBFE502984F4DF9A (void);
+// 0x000000B5 System.Void BrunoMikoski.AnimationSequencer.ShakePositionDOTweenAction::.ctor()
+extern void ShakePositionDOTweenAction__ctor_mAB4858AFBF52E63ED25A50B68CE3C9CC7A6189C4 (void);
+// 0x000000B6 System.Type BrunoMikoski.AnimationSequencer.ShakeRotationDOTweenAction::get_TargetComponentType()
+extern void ShakeRotationDOTweenAction_get_TargetComponentType_m26ABFCC07CE08F68D4DFCB1CA2347BBA407CA73A (void);
+// 0x000000B7 System.String BrunoMikoski.AnimationSequencer.ShakeRotationDOTweenAction::get_DisplayName()
+extern void ShakeRotationDOTweenAction_get_DisplayName_m8839A68D5882D0BD17A3F44F17B11F0910584DC8 (void);
+// 0x000000B8 DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.ShakeRotationDOTweenAction::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void ShakeRotationDOTweenAction_GenerateTween_Internal_mBFB524BC36FE06B720DF85CEB169E1150EF8D9BA (void);
+// 0x000000B9 System.Void BrunoMikoski.AnimationSequencer.ShakeRotationDOTweenAction::.ctor()
+extern void ShakeRotationDOTweenAction__ctor_m63A24190C3FD3AA8D28F28A21B71F253C0C4BD09 (void);
+// 0x000000BA System.Type BrunoMikoski.AnimationSequencer.ShakeScaleDOTweenAction::get_TargetComponentType()
+extern void ShakeScaleDOTweenAction_get_TargetComponentType_mDF12195B9B53E7BB2595A8706B565E58241FCAE7 (void);
+// 0x000000BB System.String BrunoMikoski.AnimationSequencer.ShakeScaleDOTweenAction::get_DisplayName()
+extern void ShakeScaleDOTweenAction_get_DisplayName_m3A5873B96D6A8782A61A424B19DC1677F9A467D1 (void);
+// 0x000000BC DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.ShakeScaleDOTweenAction::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void ShakeScaleDOTweenAction_GenerateTween_Internal_m1E8D39FCE82BC9FC65EC5E2689EE5A038F4F41C8 (void);
+// 0x000000BD System.Void BrunoMikoski.AnimationSequencer.ShakeScaleDOTweenAction::.ctor()
+extern void ShakeScaleDOTweenAction__ctor_m6974577ECFB2F091B2A3E6721AA9577202BDAD9E (void);
+// 0x000000BE System.Type BrunoMikoski.AnimationSequencer.TMP_TextDOTweenAction::get_TargetComponentType()
+extern void TMP_TextDOTweenAction_get_TargetComponentType_m19D8D8AD9D14D26EC3B70C6FE5757E2238B91288 (void);
+// 0x000000BF System.String BrunoMikoski.AnimationSequencer.TMP_TextDOTweenAction::get_DisplayName()
+extern void TMP_TextDOTweenAction_get_DisplayName_m1793BFBE3D41700CF4A76B4AA0D47AA479613FA0 (void);
+// 0x000000C0 DG.Tweening.Tweener BrunoMikoski.AnimationSequencer.TMP_TextDOTweenAction::GenerateTween_Internal(UnityEngine.GameObject,System.Single)
+extern void TMP_TextDOTweenAction_GenerateTween_Internal_mE9C4E4C604956D872F8B298A075F2395D38A0A61 (void);
+// 0x000000C1 System.Void BrunoMikoski.AnimationSequencer.TMP_TextDOTweenAction::.ctor()
+extern void TMP_TextDOTweenAction__ctor_m89434B5AFDF3393DE8EEFA2064463C49FE59647D (void);
+// 0x000000C2 System.Single BrunoMikoski.AnimationSequencer.AnimationStepBase::get_StepDelay()
+extern void AnimationStepBase_get_StepDelay_m45D572F8ED4BDDF2DFEF17B7873FB311C042A8BD (void);
+// 0x000000C3 System.Single BrunoMikoski.AnimationSequencer.AnimationStepBase::get_LoopCyclesDelay()
+extern void AnimationStepBase_get_LoopCyclesDelay_m579FDEB320301BDF0087DD263F08F8A8C841AF6E (void);
+// 0x000000C4 BrunoMikoski.AnimationSequencer.FlowType BrunoMikoski.AnimationSequencer.AnimationStepBase::get_FlowType()
+extern void AnimationStepBase_get_FlowType_m86BACF3393E5EF20AA0F2228F37268DC83D525C6 (void);
+// 0x000000C5 System.String BrunoMikoski.AnimationSequencer.AnimationStepBase::get_DisplayName()
+// 0x000000C6 System.Boolean BrunoMikoski.AnimationSequencer.AnimationStepBase::get_IsPlaying()
+extern void AnimationStepBase_get_IsPlaying_mABF86456CB4CCC927A0A777D2579690452251A08 (void);
+// 0x000000C7 System.Void BrunoMikoski.AnimationSequencer.AnimationStepBase::AddTweenToSequence(DG.Tweening.Sequence)
+// 0x000000C8 System.String BrunoMikoski.AnimationSequencer.AnimationStepBase::GetDisplayNameForEditor(System.Int32)
+extern void AnimationStepBase_GetDisplayNameForEditor_m6F4B3CA1E36727EC9426F9C25D29AFBCB504668B (void);
+// 0x000000C9 System.Void BrunoMikoski.AnimationSequencer.AnimationStepBase::OnStepStart()
+extern void AnimationStepBase_OnStepStart_m8184DAC2A9FDEC91FA0407391265BBCCA08252BA (void);
+// 0x000000CA System.Void BrunoMikoski.AnimationSequencer.AnimationStepBase::OnStepFinished()
+extern void AnimationStepBase_OnStepFinished_m2B4D4CE936A9BA6B7C299F8AF63015B9812A805A (void);
+// 0x000000CB System.Void BrunoMikoski.AnimationSequencer.AnimationStepBase::OnLoopCycleStart()
+extern void AnimationStepBase_OnLoopCycleStart_m92A6245FD515A66ECFE4EFB947EC0C009CDE4A59 (void);
+// 0x000000CC System.Void BrunoMikoski.AnimationSequencer.AnimationStepBase::OnLoopCycleFinished()
+extern void AnimationStepBase_OnLoopCycleFinished_mC5C6F0D8B89E9258ABD19D8EBED0E7202F3E610A (void);
+// 0x000000CD System.Void BrunoMikoski.AnimationSequencer.AnimationStepBase::.ctor()
+extern void AnimationStepBase__ctor_m9B03EF2943EFF6226364995871B8B1711CD14C72 (void);
+// 0x000000CE System.String BrunoMikoski.AnimationSequencer.DOTweenAnimationStep::get_DisplayName()
+extern void DOTweenAnimationStep_get_DisplayName_m8E189064337A067AC87FFBAB57E55F32C40E431E (void);
+// 0x000000CF System.Void BrunoMikoski.AnimationSequencer.DOTweenAnimationStep::AddTweenToSequence(DG.Tweening.Sequence)
+extern void DOTweenAnimationStep_AddTweenToSequence_m9AB7BB3117A2895936D5C8145BBE046EAE79EDE6 (void);
+// 0x000000D0 System.String BrunoMikoski.AnimationSequencer.DOTweenAnimationStep::GetDisplayNameForEditor(System.Int32)
+extern void DOTweenAnimationStep_GetDisplayNameForEditor_mA3829331C69B01C558541108ECBC133B02DF3B63 (void);
+// 0x000000D1 BrunoMikoski.AnimationSequencer.DOTweenActionBase BrunoMikoski.AnimationSequencer.DOTweenAnimationStep::GetActionByTagKey(System.String)
+extern void DOTweenAnimationStep_GetActionByTagKey_m67A9857037B978B08BF385B4623B858022BBC726 (void);
+// 0x000000D2 System.Void BrunoMikoski.AnimationSequencer.DOTweenAnimationStep::.ctor()
+extern void DOTweenAnimationStep__ctor_mCAF39D7F9BA5BEE86277964C9E1715DA1B5FDA57 (void);
+// 0x000000D3 System.Void BrunoMikoski.AnimationSequencer.DOTweenAnimationStep::<AddTweenToSequence>b__5_5()
+extern void DOTweenAnimationStep_U3CAddTweenToSequenceU3Eb__5_5_m0FA1D751181DA39CE3B98BBED7FF287449BC7480 (void);
+// 0x000000D4 System.Void BrunoMikoski.AnimationSequencer.DOTweenAnimationStep::<AddTweenToSequence>b__5_1()
+extern void DOTweenAnimationStep_U3CAddTweenToSequenceU3Eb__5_1_mD4129FFAD36E576FD496ABBFF0BF7C0AA8FAC24C (void);
+// 0x000000D5 System.Void BrunoMikoski.AnimationSequencer.DOTweenAnimationStep::<AddTweenToSequence>b__5_8()
+extern void DOTweenAnimationStep_U3CAddTweenToSequenceU3Eb__5_8_m6782F462BFBC09C16438114A9F33A04F1D5B3CDD (void);
+// 0x000000D6 System.Void BrunoMikoski.AnimationSequencer.DOTweenAnimationStep::<AddTweenToSequence>b__5_2()
+extern void DOTweenAnimationStep_U3CAddTweenToSequenceU3Eb__5_2_mB60D03C8DF3B34A1177806C5F6C529FCF44448C4 (void);
+// 0x000000D7 System.Void BrunoMikoski.AnimationSequencer.DOTweenAnimationStep/<>c__DisplayClass5_0::.ctor()
+extern void U3CU3Ec__DisplayClass5_0__ctor_mCCAA19BB8A86220BD116AA3EB5B32A5BBA843567 (void);
+// 0x000000D8 System.Void BrunoMikoski.AnimationSequencer.DOTweenAnimationStep/<>c__DisplayClass5_0::<AddTweenToSequence>b__0()
+extern void U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__0_mD7B8F62532B921CBD41A3FB2AC0FEBF52CEF3C6E (void);
+// 0x000000D9 System.Void BrunoMikoski.AnimationSequencer.DOTweenAnimationStep/<>c__DisplayClass5_1::.ctor()
+extern void U3CU3Ec__DisplayClass5_1__ctor_m1B04B40E9BB1815F5FE78E38F34A73759472F44A (void);
+// 0x000000DA System.Single BrunoMikoski.AnimationSequencer.DOTweenAnimationStep/<>c__DisplayClass5_1::<AddTweenToSequence>b__3()
+extern void U3CU3Ec__DisplayClass5_1_U3CAddTweenToSequenceU3Eb__3_mC26DCC4445937B09A26C76E1AA4B5953C03385ED (void);
+// 0x000000DB System.Void BrunoMikoski.AnimationSequencer.DOTweenAnimationStep/<>c__DisplayClass5_1::<AddTweenToSequence>b__4(System.Single)
+extern void U3CU3Ec__DisplayClass5_1_U3CAddTweenToSequenceU3Eb__4_mE57C04457481A600BEC757722B78CDC6B2CB4E82 (void);
+// 0x000000DC System.Void BrunoMikoski.AnimationSequencer.DOTweenAnimationStep/<>c__DisplayClass5_2::.ctor()
+extern void U3CU3Ec__DisplayClass5_2__ctor_m7FA6DD8E28C1B94F62B16DD9F7397D2B57171A4D (void);
+// 0x000000DD System.Single BrunoMikoski.AnimationSequencer.DOTweenAnimationStep/<>c__DisplayClass5_2::<AddTweenToSequence>b__6()
+extern void U3CU3Ec__DisplayClass5_2_U3CAddTweenToSequenceU3Eb__6_mEAC3BDF146B94FAF93E4555E352C07A2DFD53023 (void);
+// 0x000000DE System.Void BrunoMikoski.AnimationSequencer.DOTweenAnimationStep/<>c__DisplayClass5_2::<AddTweenToSequence>b__7(System.Single)
+extern void U3CU3Ec__DisplayClass5_2_U3CAddTweenToSequenceU3Eb__7_m1521478F1C9163F423AE98B100DDB77DC469CFBA (void);
+// 0x000000DF System.Void BrunoMikoski.AnimationSequencer.DOTweenAnimationStep/<>c::.cctor()
+extern void U3CU3Ec__cctor_mD4EF54334302699E4B63ADAE3A2B2E96B194F16B (void);
+// 0x000000E0 System.Void BrunoMikoski.AnimationSequencer.DOTweenAnimationStep/<>c::.ctor()
+extern void U3CU3Ec__ctor_m8EA9C5B21F6540A528368AE055248D13896143C2 (void);
+// 0x000000E1 System.String BrunoMikoski.AnimationSequencer.DOTweenAnimationStep/<>c::<GetDisplayNameForEditor>b__6_0(BrunoMikoski.AnimationSequencer.DOTweenActionBase)
+extern void U3CU3Ec_U3CGetDisplayNameForEditorU3Eb__6_0_m423073BB0A8F03CB019C6F2619BBC109081AC352 (void);
+// 0x000000E2 System.Void BrunoMikoski.AnimationSequencer.DOTweenAnimationStep/<>c__DisplayClass7_0::.ctor()
+extern void U3CU3Ec__DisplayClass7_0__ctor_m9E35C5E8433EA9F8A4244A302E37013D5D8224A0 (void);
+// 0x000000E3 System.Boolean BrunoMikoski.AnimationSequencer.DOTweenAnimationStep/<>c__DisplayClass7_0::<GetActionByTagKey>b__0(BrunoMikoski.AnimationSequencer.DOTweenActionBase)
+extern void U3CU3Ec__DisplayClass7_0_U3CGetActionByTagKeyU3Eb__0_m51BBDFAE1BCA92E8C03F96ED3F3907DC669B44BE (void);
+// 0x000000E4 UnityEngine.GameObject BrunoMikoski.AnimationSequencer.GameObjectAnimationStep::get_Target()
+extern void GameObjectAnimationStep_get_Target_m843A761527243627BDA91AD7E14BA0D0DEC3FDAD (void);
+// 0x000000E5 System.Void BrunoMikoski.AnimationSequencer.GameObjectAnimationStep::SetTarget(UnityEngine.GameObject)
+extern void GameObjectAnimationStep_SetTarget_m2DEB1D8A7D984B5ECAF37407FF2E45B930866A74 (void);
+// 0x000000E6 System.Void BrunoMikoski.AnimationSequencer.GameObjectAnimationStep::.ctor()
+extern void GameObjectAnimationStep__ctor_m28D58A5B32059152506D1BD9A0FC85C5F4F7A116 (void);
+// 0x000000E7 System.String BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep::get_DisplayName()
+extern void InvokeCallbackAnimationStep_get_DisplayName_mE2958ED0C3139CAEAA53D792B823FC80D5DB249D (void);
+// 0x000000E8 System.Void BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep::AddTweenToSequence(DG.Tweening.Sequence)
+extern void InvokeCallbackAnimationStep_AddTweenToSequence_mE3F7D1B2E041FE346142303F9940C46988B85AD5 (void);
+// 0x000000E9 System.String BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep::GetDisplayNameForEditor(System.Int32)
+extern void InvokeCallbackAnimationStep_GetDisplayNameForEditor_m96C461F55F88BC6917323CE29967027B2A83FB17 (void);
+// 0x000000EA System.Void BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep::.ctor()
+extern void InvokeCallbackAnimationStep__ctor_m41F95ACC9E9296B50FD557F354D2F5D5DDFFC93B (void);
+// 0x000000EB System.Void BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep/<>c__DisplayClass5_0::.ctor()
+extern void U3CU3Ec__DisplayClass5_0__ctor_m66B52BDE0796F5564536A3C3C4A95D7512580F07 (void);
+// 0x000000EC System.Single BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep/<>c__DisplayClass5_0::<AddTweenToSequence>b__0()
+extern void U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__0_mA7008B43AAC76A82ECAD30099825C1178DC5AF89 (void);
+// 0x000000ED System.Void BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep/<>c__DisplayClass5_0::<AddTweenToSequence>b__1(System.Single)
+extern void U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__1_mBCAFC8DDEE6BBD1BC944C452F2B99250AB3E00D2 (void);
+// 0x000000EE System.Void BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep/<>c__DisplayClass5_0::<AddTweenToSequence>b__2()
+extern void U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__2_m641B099DD770F4E3C4D0377845AA116EFA975A2D (void);
+// 0x000000EF System.Void BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep/<>c__DisplayClass5_0::<AddTweenToSequence>b__7()
+extern void U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__7_mF02F9F352C51DDA3B2B481D59BDE07C2684AC9AB (void);
+// 0x000000F0 System.Void BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep/<>c__DisplayClass5_0::<AddTweenToSequence>b__3()
+extern void U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__3_m4E89B54A664ED833FF9EF685823C79F8E3D6DE00 (void);
+// 0x000000F1 System.Void BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep/<>c__DisplayClass5_0::<AddTweenToSequence>b__10()
+extern void U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__10_mD6775F5DA93C5D75AC30A8D3BE73B591FAED0E44 (void);
+// 0x000000F2 System.Void BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep/<>c__DisplayClass5_0::<AddTweenToSequence>b__4()
+extern void U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__4_m37D7CF2E2A1EC2136BF11F339EF16A2FBFE2410C (void);
+// 0x000000F3 System.Void BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep/<>c__DisplayClass5_1::.ctor()
+extern void U3CU3Ec__DisplayClass5_1__ctor_mC2D58325A26B94F8B07EADDC1C3ADBE20E1E8D69 (void);
+// 0x000000F4 System.Single BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep/<>c__DisplayClass5_1::<AddTweenToSequence>b__5()
+extern void U3CU3Ec__DisplayClass5_1_U3CAddTweenToSequenceU3Eb__5_mE0E624C5A8E6A9ED3F1C08A0036A0C3E9766BF28 (void);
+// 0x000000F5 System.Void BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep/<>c__DisplayClass5_1::<AddTweenToSequence>b__6(System.Single)
+extern void U3CU3Ec__DisplayClass5_1_U3CAddTweenToSequenceU3Eb__6_mC5C971BC7B73FCF830F3672A3A6423FD5F2C2B65 (void);
+// 0x000000F6 System.Void BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep/<>c__DisplayClass5_2::.ctor()
+extern void U3CU3Ec__DisplayClass5_2__ctor_m699142D5DE8BA8FC2461A8C6263A7F89463F07A7 (void);
+// 0x000000F7 System.Single BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep/<>c__DisplayClass5_2::<AddTweenToSequence>b__8()
+extern void U3CU3Ec__DisplayClass5_2_U3CAddTweenToSequenceU3Eb__8_m398DC315130045FAEAA7D1D3C5D5B3742C8FE4B3 (void);
+// 0x000000F8 System.Void BrunoMikoski.AnimationSequencer.InvokeCallbackAnimationStep/<>c__DisplayClass5_2::<AddTweenToSequence>b__9(System.Single)
+extern void U3CU3Ec__DisplayClass5_2_U3CAddTweenToSequenceU3Eb__9_m4C536B97DAD846930C99F3FEEBD9CCAF2A2B8476 (void);
+// 0x000000F9 System.String BrunoMikoski.AnimationSequencer.PlayParticleSystemAnimationStep::get_DisplayName()
+extern void PlayParticleSystemAnimationStep_get_DisplayName_m923F55758441FD0D165A0C1156CE62B9C936089D (void);
+// 0x000000FA System.Void BrunoMikoski.AnimationSequencer.PlayParticleSystemAnimationStep::AddTweenToSequence(DG.Tweening.Sequence)
+extern void PlayParticleSystemAnimationStep_AddTweenToSequence_m2F2F02E31C387A84E574BFAABFE7291F61049ACC (void);
+// 0x000000FB System.Void BrunoMikoski.AnimationSequencer.PlayParticleSystemAnimationStep::FinishParticles()
+extern void PlayParticleSystemAnimationStep_FinishParticles_m017CD1BB84088A1B28CA86BB560591787AE34046 (void);
+// 0x000000FC System.Void BrunoMikoski.AnimationSequencer.PlayParticleSystemAnimationStep::SetTarget(UnityEngine.ParticleSystem)
+extern void PlayParticleSystemAnimationStep_SetTarget_mB4E1B1C5135179CFBD6A7CEE014B65A098E5E67C (void);
+// 0x000000FD System.String BrunoMikoski.AnimationSequencer.PlayParticleSystemAnimationStep::GetDisplayNameForEditor(System.Int32)
+extern void PlayParticleSystemAnimationStep_GetDisplayNameForEditor_m99B5F16946D0FEEBEF08B3E7E0EA6E1CB284B5F0 (void);
+// 0x000000FE System.Void BrunoMikoski.AnimationSequencer.PlayParticleSystemAnimationStep::.ctor()
+extern void PlayParticleSystemAnimationStep__ctor_mE6D0376680ACC372D478C116D85FE486C24F202A (void);
+// 0x000000FF System.Void BrunoMikoski.AnimationSequencer.PlayParticleSystemAnimationStep::<AddTweenToSequence>b__5_0()
+extern void PlayParticleSystemAnimationStep_U3CAddTweenToSequenceU3Eb__5_0_m5A57D732DB30B5FAF05859A5CABAA34A5C66426D (void);
+// 0x00000100 System.String BrunoMikoski.AnimationSequencer.PlaySequenceAnimationStep::get_DisplayName()
+extern void PlaySequenceAnimationStep_get_DisplayName_m6A08F4BC130D432B17A470A08CD224F5F68ABF68 (void);
+// 0x00000101 System.Void BrunoMikoski.AnimationSequencer.PlaySequenceAnimationStep::AddTweenToSequence(DG.Tweening.Sequence)
+extern void PlaySequenceAnimationStep_AddTweenToSequence_m8F1EA702F7E169492E580CCC16A4BE9D0FB10F3B (void);
+// 0x00000102 System.String BrunoMikoski.AnimationSequencer.PlaySequenceAnimationStep::GetDisplayNameForEditor(System.Int32)
+extern void PlaySequenceAnimationStep_GetDisplayNameForEditor_mC772A6ED627B739698618F06B37BE113C5F83032 (void);
+// 0x00000103 System.Void BrunoMikoski.AnimationSequencer.PlaySequenceAnimationStep::SetTarget(BrunoMikoski.AnimationSequencer.AnimationSequencerController)
+extern void PlaySequenceAnimationStep_SetTarget_mA359A99AF6C57315F0CB904CC8BFA96765B04A58 (void);
+// 0x00000104 System.Void BrunoMikoski.AnimationSequencer.PlaySequenceAnimationStep::.ctor()
+extern void PlaySequenceAnimationStep__ctor_mFEEA9F819FDF951F36FAA6026D14CF22F779636F (void);
+// 0x00000105 DG.Tweening.Core.TweenerCore`3<System.String,System.String,DG.Tweening.Plugins.Options.StringOptions> BrunoMikoski.AnimationSequencer.DOTweenExtensions::DOText(TMPro.TMP_Text,System.String,System.Single,System.Boolean,DG.Tweening.ScrambleMode,System.String)
+extern void DOTweenExtensions_DOText_mBD4A3ED966C8549B139AA74915146C0FB24F3FE0 (void);
+// 0x00000106 System.Void BrunoMikoski.AnimationSequencer.DOTweenExtensions/<>c__DisplayClass0_0::.ctor()
+extern void U3CU3Ec__DisplayClass0_0__ctor_mDD32E061A7872B3375CB9CA9778AD02026A6F370 (void);
+// 0x00000107 System.String BrunoMikoski.AnimationSequencer.DOTweenExtensions/<>c__DisplayClass0_0::<DOText>b__0()
+extern void U3CU3Ec__DisplayClass0_0_U3CDOTextU3Eb__0_mCE5C0748D5065507F63E96D245375732E16EC839 (void);
+// 0x00000108 System.Void BrunoMikoski.AnimationSequencer.DOTweenExtensions/<>c__DisplayClass0_0::<DOText>b__1(System.String)
+extern void U3CU3Ec__DisplayClass0_0_U3CDOTextU3Eb__1_mEC43FAFDB22F5E9DAD258DEDF363EB8F46A89D37 (void);
+// 0x00000109 System.String BrunoMikoski.AnimationSequencer.StringExtensions::Truncate(System.String,System.Int32,System.String)
+extern void StringExtensions_Truncate_m75D6DA027BB76CFF58123EC59A960AD6A325001B (void);
+static Il2CppMethodPointer s_methodPointers[265] = 
+{
+	CustomEaseExtensions_SetEase_m4C4821239D1626E1A948E63EBB9085A11472484A,
+	NULL,
+	AnimationSequencerController_get_PlayingSequence_m690817FD03C0053B31F524103001189257248D4F,
+	AnimationSequencerController_get_IsPlaying_m10DADF022387A7CA1FDE82257C8AF6A706155760,
+	AnimationSequencerController_get_OnStartEvent_mEF4BAAC1B10A684CE08CF6FEDE00ABC155D6F3C7,
+	AnimationSequencerController_get_OnFinishedEvent_mF5DEFE0D6132BF3935AEB49CAEA8E58DD7F64046,
+	AnimationSequencerController_get_OnProgressEvent_m04282CBF3EFD17880422402C91766E12D896569A,
+	AnimationSequencerController_get_OnPauseEvent_m1DE4E98AFDC509B0E3B779F4B51BEC2683B3EA34,
+	AnimationSequencerController_get_OnResumeEvent_m2067C9619034A6C383213B3DC62F273B519294D4,
+	AnimationSequencerController_get_OnSequenceLoopCycleStartEvent_mD3FEB74B0D9C90E1527DC528C8466A8B23BFE6AE,
+	AnimationSequencerController_get_OnSequenceLoopCycleFinishedEvent_m8472C3667C6E3E69C183826D29AFB86F943DF811,
+	AnimationSequencerController_OnPause_mB27FB8DCF1D220F9D7649A27035459B23A4EFE44,
+	AnimationSequencerController_OnResume_m0A8CDD24888277AE3D82FB360F5E5E029E769ACA,
+	AnimationSequencerController_OnSequenceLoopCycleStart_m41893139E26C9F986BA56D58810FCDCFF1A8AA6B,
+	AnimationSequencerController_OnSequenceLoopCycleFinished_m3129FE90C1DC4ECA149F7503D06D9D0C8456A47E,
+	AnimationSequencerController_Awake_m5FECC6861796B5E34373823060594612D5D4F808,
+	AnimationSequencerController_OnDestroy_m506F626EC86D007872408F1D9223BF68576EFF6E,
+	AnimationSequencerController_Play_m4BD4B0794DB2C6C1A3249C925DE3F68BF156F56E,
+	AnimationSequencerController_TogglePause_m8ED99C1B2D723CF13B92A35812594A82CE42ACE6,
+	AnimationSequencerController_Pause_m2F08B80FB7737A10B69683FC0028D88735271DE5,
+	AnimationSequencerController_Resume_m1A867B0D0E31692D55CDAC75409A323E1C3E30E8,
+	AnimationSequencerController_Complete_mDED041C7FE9B53EA6DF756A09A228E16AFA15D11,
+	AnimationSequencerController_Rewind_m8A4EB0C6959979ED30995C535A4D786826D799C4,
+	AnimationSequencerController_Kill_m98F52370B32087FB2EDD11981080923C47DDC874,
+	AnimationSequencerController_PlayEnumerator_m81FE35B750C995E6AC5D4DA55B13430E3D4D3F4D,
+	AnimationSequencerController_GenerateSequence_mD086CD9F887A81D3FC6BD4A264E39B2FA62449FE,
+	AnimationSequencerController_GetControllerByTagKey_mD5431A4D0FE51BA1C7BC4806A8D9D07F23C6A4D5,
+	AnimationSequencerController_GetStepByTagKey_m339BA7929013BDA1877CE54CDE356A8543B0B176,
+	AnimationSequencerController__ctor_m8D7E49E920F18B80E3B6936BB7F794742D5DF4B5,
+	U3CPlayEnumeratorU3Ed__52__ctor_m71671D986DDA71CD64DBC7019CC9596F10746C21,
+	U3CPlayEnumeratorU3Ed__52_System_IDisposable_Dispose_m5321C187D989DB6DBBAD28A48F314ED80F91694F,
+	U3CPlayEnumeratorU3Ed__52_MoveNext_m11B552FC39EBDA8A188BB117A1147E8D7A6CAD3E,
+	U3CPlayEnumeratorU3Ed__52_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF92CC534A99BBEE2889ED9911E7091EB51C526BA,
+	U3CPlayEnumeratorU3Ed__52_System_Collections_IEnumerator_Reset_mA34F9D6B27B8FAFC6B83B7BCD8AB1D2FCCB05743,
+	U3CPlayEnumeratorU3Ed__52_System_Collections_IEnumerator_get_Current_m3D203771DF25A02B7607C7B157DF3F40F373B4A4,
+	U3CU3Ec__DisplayClass53_0__ctor_m043B87F96CF409E8558937EB02D9F9F8BAA3CAC4,
+	U3CU3Ec__DisplayClass53_0_U3CGenerateSequenceU3Eb__0_mB9B3B8A2B97C7C656C29686C0D84B1A4615D26D7,
+	U3CU3Ec__DisplayClass53_0_U3CGenerateSequenceU3Eb__1_m01E46D97FE32A7F7572E791A93E021771A932E38,
+	U3CU3Ec__DisplayClass53_0_U3CGenerateSequenceU3Eb__2_mCB8C160EC2A90525CFA4D45403EB30ACA5C7EC6F,
+	U3CU3Ec__DisplayClass53_0_U3CGenerateSequenceU3Eb__3_mAE2D46BB3EFC5DD4584E1B4082204FF8D5350767,
+	U3CU3Ec__DisplayClass53_0_U3CGenerateSequenceU3Eb__5_mD39911D911C34E3E481A6E2743ABF4FC6F344CB2,
+	U3CU3Ec__DisplayClass53_0_U3CGenerateSequenceU3Eb__4_mE89D8E2B571745337D02C3BDB7B30F6F9C9B2319,
+	U3CU3Ec__DisplayClass53_0_U3CGenerateSequenceU3Eb__6_m5C40EFCEF5424FE33D8C8A32619943AC8D0DB6F1,
+	U3CU3Ec__DisplayClass54_0__ctor_m9BE6B75239E72013476BABD363119C1552D490C5,
+	U3CU3Ec__DisplayClass54_0_U3CGetControllerByTagKeyU3Eb__0_m4B96608ABEC887131DCB3E8EDE1AA03B81719187,
+	U3CU3Ec__DisplayClass55_0__ctor_m58511F516BBDC646AC0EA983DE4C4233747F5689,
+	U3CU3Ec__DisplayClass55_0_U3CGetStepByTagKeyU3Eb__0_m9DBBE061BC926211E0019F2652E09FBBE0C595AD,
+	CustomEase_get_Ease_m33C6218A619672ECDAF2362EACF083A4A6F02A70,
+	CustomEase_get_UseCustomCurve_m1B749C0E4A923A7ADE3B5C0042FFA36707A8E42F,
+	CustomEase__ctor_m3B7FF88ED858CC3EEA001C7FFE2287708442A6E2,
+	CustomEase__ctor_mE9FE97A912BCD5439D29A817BC8B1C7557BFEB06,
+	CustomEase__ctor_mCE76B6DDC089616D7A25D3CF2E586CF218427584,
+	CustomEase_Lerp_mC4494C361D40480A57A41824B97D87EE359E0B17,
+	CustomEase_LerpUnclamped_mF9B49C78E07FF6EA289E415768172331D2169358,
+	CustomEase_Evaluate_m6FEAD829A15A267942FEDC713654D1E1CEB04848,
+	CustomEase_ApplyTo_m648238B51D9B2DEF1C95B8A5164D99DD39E31639,
+	NULL,
+	CustomEase_Equals_mE50A0BCB138C5BC845A6EDCE47D3B4F317EAB38F,
+	CustomEase_Equals_m6F183866485500A664A75A50C8F09B5F2B0CE4B7,
+	CustomEase_GetHashCode_m91AD40E47E581E4510702D15AD962282F33477FD,
+	CustomEase_get_Linear_m9437C130B7CABDFA2F3F83963ED8FD60562D01E5,
+	CustomEase_get_InSine_m248A8351332224454BDE9379B6EDEABDE1898358,
+	CustomEase_get_OutSine_mE80E856BFC63143215B4B31CDDC58C56364445B7,
+	CustomEase_get_InOutSine_mFBBFF3DECC84F576DE313D2E45A536198391C847,
+	CustomEase_get_InQuad_m52CD40E694BF831D07640338AD39291E7CF92683,
+	CustomEase_get_OutQuad_m286A4F9CF88F90BC7A631C2F12127B6846F34CE8,
+	CustomEase_get_InOutQuad_mC1360ED3CD2BF475B00CE202F65AF359E48A5B5C,
+	CustomEase_get_InCubic_m68AE1B7D5FAC519EB70B17075679D9929ABF1E30,
+	CustomEase_get_OutCubic_m63246D93BBEBE2B9721C017A30766390224780CC,
+	CustomEase_get_InOutCubic_m0A51530094B20B0430B6AF26A236C043AE5F43BC,
+	CustomEase_get_InQuart_m6588FA327F7DF98DB9153FD608AA22AC16A12F8C,
+	CustomEase_get_OutQuart_m26F0C595DCF72904A01C8D5D964C600DD82ECEBF,
+	CustomEase_get_InOutQuart_mD8CE7B255C4E1F72143F092E77AA9C2134A05681,
+	CustomEase_get_InQuint_mC515976F82D7C34A7631515A34972733E6BD3B25,
+	CustomEase_get_OutQuint_m2C767FBECE6DBDB21EE1909AD6536F6B72964B11,
+	CustomEase_get_InOutQuint_m0BF10E188716D8A1DEE9DACC9C8FB497B42DED66,
+	CustomEase_get_InExpo_m5B2654D8FB2FD1310E88C7142A0918AB60F9B175,
+	CustomEase_get_OutExpo_mA3F337459CE9E69D6150C3B0DACEDE4A9CC4CB13,
+	CustomEase_get_InOutExpo_m12BF4F0B92706C8B450B604B16116122A9C318CE,
+	CustomEase_get_InCirc_m34991BA027D5D175F7C2DEC182BFA271DE6C30F6,
+	CustomEase_get_OutCirc_m8C1CA0FE1998C0000D1AADBC74F2C994837D289F,
+	CustomEase_get_InOutCirc_m8E2E402D599EEBA3CB39DDA4CD9CCD045093693B,
+	CustomEase_get_InElastic_m0549B57C0274B3500D1A2588B9F2A22A5A6D1C31,
+	CustomEase_get_OutElastic_mDBA212CE78A04BC59564F108A7C4DCFE8AE98761,
+	CustomEase_get_InOutElastic_m4977C5B3A19FE13C0C37908855E3E8C9A3080DE2,
+	CustomEase_get_InBack_mAE27FBF192E66DEA7209957CAB00DE23162609E2,
+	CustomEase_get_OutBack_m384525C5728B575CCA1B791D00D0B1ACEE3B0FB3,
+	CustomEase_get_InOutBack_mAF9C67A6B4D07076C6AE8C0FADCC9C0A55BCD9FA,
+	CustomEase_get_InBounce_m911A15E0EAC93EE88A929C7CD4D9A1F273FF6A3F,
+	CustomEase_get_OutBounce_m2033F0D7946627940744D58D3D82FBD25651344F,
+	CustomEase_get_InOutBounce_m4993E191450BCCD8A38097CEE186AEFC421B0067,
+	CustomEase_get_Flash_m1D89AAE2DA3ED8E074C7C2FD7B9F5857D356502D,
+	CustomEase_get_InFlash_mD71D666BFABA63F8CDED8D607ED945E6B8BC6C4F,
+	CustomEase_get_OutFlash_mD7E448D45C346244B8DF0E596AEC19B0C8FD7139,
+	CustomEase_get_InOutFlash_mFBD9BCCABC23DDC3E127584B9FB2652724398D8E,
+	AnchoredPositionMoveDOTweenActionBase_get_TargetComponentType_mCE959ABBEA92244B9960AC9A3224F5337B405240,
+	AnchoredPositionMoveDOTweenActionBase_GenerateTween_Internal_mD93FEA9B186F5BD4930DED6BD88252579142076E,
+	NULL,
+	AnchoredPositionMoveDOTweenActionBase__ctor_m2F26E25CBFC58B9646A55854D605F91F8A96B8F1,
+	AnchoredPositionMoveToPositionDOTweenActionBase_get_DisplayName_mECA360E87FE4CB6B44DDFB1C586447B4C6B51C85,
+	AnchoredPositionMoveToPositionDOTweenActionBase_GetPosition_m3AE80619F9D456A0AB328F7C06F2A92D989DFB97,
+	AnchoredPositionMoveToPositionDOTweenActionBase__ctor_m271684605CEE20750CA103ABD05EA9CE01C3A87A,
+	AnchoredPositionMoveToRectTransformPositionDOTweenActionBase_get_DisplayName_m31DF49938042DEA4FFF93052912BF77277F7F12B,
+	AnchoredPositionMoveToRectTransformPositionDOTweenActionBase_GetPosition_m8D12C021350B1FC3AE8034D6455A65792CF14F73,
+	AnchoredPositionMoveToRectTransformPositionDOTweenActionBase__ctor_mA9F27548B6EB1009E5E4A9F23A9F7D0CFF7023AB,
+	ColorGraphicDOTWeen_get_TargetComponentType_m2D2A734F38F2747ED72156EDFA164FED25906344,
+	ColorGraphicDOTWeen_get_DisplayName_m775C7CBCCB0629394119B9033C710344C4F81B68,
+	ColorGraphicDOTWeen_GenerateTween_Internal_m75C9F04605CD475996CEBFF92E660593E4B34572,
+	ColorGraphicDOTWeen__ctor_mF1B22C38984422AC0B87192A1A2A238A584577BC,
+	DOTweenActionBase_get_TargetComponentType_m67173D408F823D689EC50F079A83F08348C827AC,
+	NULL,
+	NULL,
+	DOTweenActionBase_GenerateTween_m9DA988914B05A47454C4DE7CB7F9372FEC84DABD,
+	DOTweenActionBase__ctor_m44AA22F6A1DCB685598A6FF21E35002F18DDB882,
+	FadeCanvasGroupDOTweenAction_get_TargetComponentType_mA363468A494883A08421E46574F743B6EF67E688,
+	FadeCanvasGroupDOTweenAction_get_DisplayName_m7E1D3A867AB60BA018F8C3FF75E61BC28094CE10,
+	FadeCanvasGroupDOTweenAction_GenerateTween_Internal_m87DF83CD42E2DF59FCC7EF059EB551B16E7E7C71,
+	FadeCanvasGroupDOTweenAction__ctor_mD88D3F43884B3333A0D7E83B24678195CEE98BD1,
+	FadeGraphicDOTweenAction_get_TargetComponentType_mDE72A5746821F4DA2EF3BD7A177174B9235F1B49,
+	FadeGraphicDOTweenAction_get_DisplayName_mF8E0E8258AA26188BD6D84352F340355497FC723,
+	FadeGraphicDOTweenAction_GenerateTween_Internal_m1C633A198DEE9EC2FBD01A38607CEA5276C56CF1,
+	FadeGraphicDOTweenAction__ctor_m53EF52C7567BA2D0E5C662C262C46C2D5BEDE0DC,
+	FillImageDOTweenAction_get_TargetComponentType_mFC6760A69F022981F0B65FFB85BD510B1C0D713D,
+	FillImageDOTweenAction_get_DisplayName_mD9DAB31271EE6BE4CCABDF02E062B8D4B0069909,
+	FillImageDOTweenAction_GenerateTween_Internal_m4ADBDF7B45944F7C2BFD61D97E61D5F5E6E9ADE4,
+	FillImageDOTweenAction__ctor_mF0F9FF9AAEAC9D26DB247578E5EF26F9BBDC8E18,
+	MoveDOTweenActionBase_get_TargetComponentType_m446DF8C7C99D2521AF79ED95F2371B5FFD180939,
+	MoveDOTweenActionBase_get_DisplayName_m133715D05342C3A9FC162BD8EEF17F4127313C25,
+	MoveDOTweenActionBase_GenerateTween_Internal_m2D7A3D8620E8A9F55EE68930B1C8CB3D336B8C17,
+	NULL,
+	MoveDOTweenActionBase__ctor_mAF51F96502A58427D1CD5EC556FFAAAE171A8D19,
+	MoveToPositionDOTweenActionBase_get_TargetComponentType_mF0A567B5378CC66090D3E150D83DE7C133C52C5B,
+	MoveToPositionDOTweenActionBase_get_DisplayName_m9C1227D35B4838F9ED6D4F9D16D03FBA5EC697B4,
+	MoveToPositionDOTweenActionBase_GetPosition_m10049BEA24F8A862C6F302BBADC5D976400059D8,
+	MoveToPositionDOTweenActionBase__ctor_m2372B9D5F155298DD48A761D7457C06B5A44F466,
+	MoveToTargetDOTweenActionBase_get_TargetComponentType_m79CD7CCA6C0E424E9520520733918FCAD10BB90F,
+	MoveToTargetDOTweenActionBase_get_DisplayName_mC26CC9E0C69D5106273060E38D3BF36B55863B64,
+	MoveToTargetDOTweenActionBase_GetPosition_m4AAE886F3A04429752CDA79EA00BCCE36F243EEA,
+	MoveToTargetDOTweenActionBase__ctor_mBB1CA5D2E35EBEC8BD0952225D335790FCCABEF5,
+	PathDOTweenActionBase_get_TargetComponentType_mF1463E741C6659FF353A354FB727366ADDCB56FE,
+	PathDOTweenActionBase_GenerateTween_Internal_mD4E3782C3A22AB4EFA2211C2DD111CF85EC912F3,
+	NULL,
+	PathDOTweenActionBase__ctor_mACCB11184F31F63BA3D31F4683C7E8AB078299CC,
+	PathPositionDOTweenActionBase_get_DisplayName_m417BDF74557DB81BEF117B22EAB5E45D21DF87DE,
+	PathPositionDOTweenActionBase_GetPathPositions_mB70B5A5B603B42D3E6AEE886C6EDB2BF206C263D,
+	PathPositionDOTweenActionBase__ctor_m38FEBE161C656C01B64D6C2253B9170A574ECD1A,
+	PathTransformPositionsDOTweenActionBase_get_DisplayName_m1560125DCD8C2CABCF522A47053FF98CCD398758,
+	PathTransformPositionsDOTweenActionBase_GetPathPositions_m90C3F5C7BBC4DA64834DF5ACEA09E8EB77C45E99,
+	PathTransformPositionsDOTweenActionBase__ctor_m53CFD3430FFD6F49A50E57F06ABA07F1B7EFC160,
+	PunchPositionDOTweenAction_get_TargetComponentType_m28CAD3CBC040DFBA3BBA727B373DF2A121FDFC69,
+	PunchPositionDOTweenAction_get_DisplayName_m607767E6A171A372A719CFC45EDB79EC7FB941C7,
+	PunchPositionDOTweenAction_GenerateTween_Internal_m8E749CE2E0969E9E07ACB4BD9A3ADFEDE45BE48A,
+	PunchPositionDOTweenAction__ctor_m920427F5A22DF78B9C81D39FADBCF4D8DB3246EC,
+	PunchRotationDOTweenAction_get_TargetComponentType_m09262C6E4EE6CA21A02311DD01D6F3EB3B6475CF,
+	PunchRotationDOTweenAction_get_DisplayName_m83712554A3563A14FC7071FF0FD0D16F12E06E6C,
+	PunchRotationDOTweenAction_GenerateTween_Internal_mE7C4E61982EB96F0062AB4BEBE245BA2827DBFA3,
+	PunchRotationDOTweenAction__ctor_m5E98D5D2FE1F1BA338751CDCDA1ECF0FD77F391F,
+	PunchScaleDOTweenAction_get_DisplayName_m3D61530E0C19C3C537A77A949C654B75F0407405,
+	PunchScaleDOTweenAction_get_TargetComponentType_mAF39364FD481827BD14F9DD229BC7DA9256D6B66,
+	PunchScaleDOTweenAction_GenerateTween_Internal_m460DEF773BF7CBE379CE0F61FF993A644DE6F8C8,
+	PunchScaleDOTweenAction__ctor_m62369BF3025C4265F5E3E08DE7EC0640D1D84BCA,
+	RotateDOTweenActionBase_get_TargetComponentType_m01D2A614B1204BF2B9960E76D9875D1697E20D4E,
+	RotateDOTweenActionBase_get_DisplayName_mF85700E615B74EEB5D3522F41947B2A855C2149E,
+	RotateDOTweenActionBase_GenerateTween_Internal_m98449F5B09D055C91D81F3701BE339D49528D11C,
+	NULL,
+	RotateDOTweenActionBase__ctor_mD62B809611E2FCEBDEA2E9B245E4660A174832C7,
+	RotateToEulerAnglesFromTransformRotateDOTweenAction_get_DisplayName_m91D2114DC77F04AE1B886FCA30EDB26260600359,
+	RotateToEulerAnglesFromTransformRotateDOTweenAction_GetRotation_m0E7A758BB66F6DB53C28974A613E1FA4C391DB83,
+	RotateToEulerAnglesFromTransformRotateDOTweenAction__ctor_m9CF750AD49B430BA92B5BA4D8CB0689857B4A554,
+	RotateToEulerAnglesRotateDOTweenAction_get_TargetComponentType_m2731447C030A946938C2B77A1AC38702B7353D63,
+	RotateToEulerAnglesRotateDOTweenAction_get_DisplayName_m614514763F727CB5B02233F4075FEBE8A971F670,
+	RotateToEulerAnglesRotateDOTweenAction_GetRotation_m472D6A4C373C2E7DD1D5EC4EE008F39AED5CB7D1,
+	RotateToEulerAnglesRotateDOTweenAction__ctor_m48B0A1DEB18598F4E1092576534172B7B913101E,
+	ScaleDOTweenAction_get_TargetComponentType_m3007E6739F401EA5E332C2A9D920083ACE2C940E,
+	ScaleDOTweenAction_get_DisplayName_mCE4BCB24EFAF9818A515C493469372E2BBB09574,
+	ScaleDOTweenAction_GenerateTween_Internal_m5AC3395ECCB216D45023D01651565591A4B3ACA6,
+	ScaleDOTweenAction__ctor_m9DFD15FD5EFC615A92947C2E5B43FC1F156D303A,
+	ShakePositionDOTweenAction_get_TargetComponentType_mAADA503D3B2D0629DD5E91CD018AE54DDC336D3D,
+	ShakePositionDOTweenAction_get_DisplayName_m46A595810647DD9F50CE500DA94BF0406FA8BB25,
+	ShakePositionDOTweenAction_GenerateTween_Internal_m74063E222B599B6DD248619EBBFE502984F4DF9A,
+	ShakePositionDOTweenAction__ctor_mAB4858AFBF52E63ED25A50B68CE3C9CC7A6189C4,
+	ShakeRotationDOTweenAction_get_TargetComponentType_m26ABFCC07CE08F68D4DFCB1CA2347BBA407CA73A,
+	ShakeRotationDOTweenAction_get_DisplayName_m8839A68D5882D0BD17A3F44F17B11F0910584DC8,
+	ShakeRotationDOTweenAction_GenerateTween_Internal_mBFB524BC36FE06B720DF85CEB169E1150EF8D9BA,
+	ShakeRotationDOTweenAction__ctor_m63A24190C3FD3AA8D28F28A21B71F253C0C4BD09,
+	ShakeScaleDOTweenAction_get_TargetComponentType_mDF12195B9B53E7BB2595A8706B565E58241FCAE7,
+	ShakeScaleDOTweenAction_get_DisplayName_m3A5873B96D6A8782A61A424B19DC1677F9A467D1,
+	ShakeScaleDOTweenAction_GenerateTween_Internal_m1E8D39FCE82BC9FC65EC5E2689EE5A038F4F41C8,
+	ShakeScaleDOTweenAction__ctor_m6974577ECFB2F091B2A3E6721AA9577202BDAD9E,
+	TMP_TextDOTweenAction_get_TargetComponentType_m19D8D8AD9D14D26EC3B70C6FE5757E2238B91288,
+	TMP_TextDOTweenAction_get_DisplayName_m1793BFBE3D41700CF4A76B4AA0D47AA479613FA0,
+	TMP_TextDOTweenAction_GenerateTween_Internal_mE9C4E4C604956D872F8B298A075F2395D38A0A61,
+	TMP_TextDOTweenAction__ctor_m89434B5AFDF3393DE8EEFA2064463C49FE59647D,
+	AnimationStepBase_get_StepDelay_m45D572F8ED4BDDF2DFEF17B7873FB311C042A8BD,
+	AnimationStepBase_get_LoopCyclesDelay_m579FDEB320301BDF0087DD263F08F8A8C841AF6E,
+	AnimationStepBase_get_FlowType_m86BACF3393E5EF20AA0F2228F37268DC83D525C6,
+	NULL,
+	AnimationStepBase_get_IsPlaying_mABF86456CB4CCC927A0A777D2579690452251A08,
+	NULL,
+	AnimationStepBase_GetDisplayNameForEditor_m6F4B3CA1E36727EC9426F9C25D29AFBCB504668B,
+	AnimationStepBase_OnStepStart_m8184DAC2A9FDEC91FA0407391265BBCCA08252BA,
+	AnimationStepBase_OnStepFinished_m2B4D4CE936A9BA6B7C299F8AF63015B9812A805A,
+	AnimationStepBase_OnLoopCycleStart_m92A6245FD515A66ECFE4EFB947EC0C009CDE4A59,
+	AnimationStepBase_OnLoopCycleFinished_mC5C6F0D8B89E9258ABD19D8EBED0E7202F3E610A,
+	AnimationStepBase__ctor_m9B03EF2943EFF6226364995871B8B1711CD14C72,
+	DOTweenAnimationStep_get_DisplayName_m8E189064337A067AC87FFBAB57E55F32C40E431E,
+	DOTweenAnimationStep_AddTweenToSequence_m9AB7BB3117A2895936D5C8145BBE046EAE79EDE6,
+	DOTweenAnimationStep_GetDisplayNameForEditor_mA3829331C69B01C558541108ECBC133B02DF3B63,
+	DOTweenAnimationStep_GetActionByTagKey_m67A9857037B978B08BF385B4623B858022BBC726,
+	DOTweenAnimationStep__ctor_mCAF39D7F9BA5BEE86277964C9E1715DA1B5FDA57,
+	DOTweenAnimationStep_U3CAddTweenToSequenceU3Eb__5_5_m0FA1D751181DA39CE3B98BBED7FF287449BC7480,
+	DOTweenAnimationStep_U3CAddTweenToSequenceU3Eb__5_1_mD4129FFAD36E576FD496ABBFF0BF7C0AA8FAC24C,
+	DOTweenAnimationStep_U3CAddTweenToSequenceU3Eb__5_8_m6782F462BFBC09C16438114A9F33A04F1D5B3CDD,
+	DOTweenAnimationStep_U3CAddTweenToSequenceU3Eb__5_2_mB60D03C8DF3B34A1177806C5F6C529FCF44448C4,
+	U3CU3Ec__DisplayClass5_0__ctor_mCCAA19BB8A86220BD116AA3EB5B32A5BBA843567,
+	U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__0_mD7B8F62532B921CBD41A3FB2AC0FEBF52CEF3C6E,
+	U3CU3Ec__DisplayClass5_1__ctor_m1B04B40E9BB1815F5FE78E38F34A73759472F44A,
+	U3CU3Ec__DisplayClass5_1_U3CAddTweenToSequenceU3Eb__3_mC26DCC4445937B09A26C76E1AA4B5953C03385ED,
+	U3CU3Ec__DisplayClass5_1_U3CAddTweenToSequenceU3Eb__4_mE57C04457481A600BEC757722B78CDC6B2CB4E82,
+	U3CU3Ec__DisplayClass5_2__ctor_m7FA6DD8E28C1B94F62B16DD9F7397D2B57171A4D,
+	U3CU3Ec__DisplayClass5_2_U3CAddTweenToSequenceU3Eb__6_mEAC3BDF146B94FAF93E4555E352C07A2DFD53023,
+	U3CU3Ec__DisplayClass5_2_U3CAddTweenToSequenceU3Eb__7_m1521478F1C9163F423AE98B100DDB77DC469CFBA,
+	U3CU3Ec__cctor_mD4EF54334302699E4B63ADAE3A2B2E96B194F16B,
+	U3CU3Ec__ctor_m8EA9C5B21F6540A528368AE055248D13896143C2,
+	U3CU3Ec_U3CGetDisplayNameForEditorU3Eb__6_0_m423073BB0A8F03CB019C6F2619BBC109081AC352,
+	U3CU3Ec__DisplayClass7_0__ctor_m9E35C5E8433EA9F8A4244A302E37013D5D8224A0,
+	U3CU3Ec__DisplayClass7_0_U3CGetActionByTagKeyU3Eb__0_m51BBDFAE1BCA92E8C03F96ED3F3907DC669B44BE,
+	GameObjectAnimationStep_get_Target_m843A761527243627BDA91AD7E14BA0D0DEC3FDAD,
+	GameObjectAnimationStep_SetTarget_m2DEB1D8A7D984B5ECAF37407FF2E45B930866A74,
+	GameObjectAnimationStep__ctor_m28D58A5B32059152506D1BD9A0FC85C5F4F7A116,
+	InvokeCallbackAnimationStep_get_DisplayName_mE2958ED0C3139CAEAA53D792B823FC80D5DB249D,
+	InvokeCallbackAnimationStep_AddTweenToSequence_mE3F7D1B2E041FE346142303F9940C46988B85AD5,
+	InvokeCallbackAnimationStep_GetDisplayNameForEditor_m96C461F55F88BC6917323CE29967027B2A83FB17,
+	InvokeCallbackAnimationStep__ctor_m41F95ACC9E9296B50FD557F354D2F5D5DDFFC93B,
+	U3CU3Ec__DisplayClass5_0__ctor_m66B52BDE0796F5564536A3C3C4A95D7512580F07,
+	U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__0_mA7008B43AAC76A82ECAD30099825C1178DC5AF89,
+	U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__1_mBCAFC8DDEE6BBD1BC944C452F2B99250AB3E00D2,
+	U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__2_m641B099DD770F4E3C4D0377845AA116EFA975A2D,
+	U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__7_mF02F9F352C51DDA3B2B481D59BDE07C2684AC9AB,
+	U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__3_m4E89B54A664ED833FF9EF685823C79F8E3D6DE00,
+	U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__10_mD6775F5DA93C5D75AC30A8D3BE73B591FAED0E44,
+	U3CU3Ec__DisplayClass5_0_U3CAddTweenToSequenceU3Eb__4_m37D7CF2E2A1EC2136BF11F339EF16A2FBFE2410C,
+	U3CU3Ec__DisplayClass5_1__ctor_mC2D58325A26B94F8B07EADDC1C3ADBE20E1E8D69,
+	U3CU3Ec__DisplayClass5_1_U3CAddTweenToSequenceU3Eb__5_mE0E624C5A8E6A9ED3F1C08A0036A0C3E9766BF28,
+	U3CU3Ec__DisplayClass5_1_U3CAddTweenToSequenceU3Eb__6_mC5C971BC7B73FCF830F3672A3A6423FD5F2C2B65,
+	U3CU3Ec__DisplayClass5_2__ctor_m699142D5DE8BA8FC2461A8C6263A7F89463F07A7,
+	U3CU3Ec__DisplayClass5_2_U3CAddTweenToSequenceU3Eb__8_m398DC315130045FAEAA7D1D3C5D5B3742C8FE4B3,
+	U3CU3Ec__DisplayClass5_2_U3CAddTweenToSequenceU3Eb__9_m4C536B97DAD846930C99F3FEEBD9CCAF2A2B8476,
+	PlayParticleSystemAnimationStep_get_DisplayName_m923F55758441FD0D165A0C1156CE62B9C936089D,
+	PlayParticleSystemAnimationStep_AddTweenToSequence_m2F2F02E31C387A84E574BFAABFE7291F61049ACC,
+	PlayParticleSystemAnimationStep_FinishParticles_m017CD1BB84088A1B28CA86BB560591787AE34046,
+	PlayParticleSystemAnimationStep_SetTarget_mB4E1B1C5135179CFBD6A7CEE014B65A098E5E67C,
+	PlayParticleSystemAnimationStep_GetDisplayNameForEditor_m99B5F16946D0FEEBEF08B3E7E0EA6E1CB284B5F0,
+	PlayParticleSystemAnimationStep__ctor_mE6D0376680ACC372D478C116D85FE486C24F202A,
+	PlayParticleSystemAnimationStep_U3CAddTweenToSequenceU3Eb__5_0_m5A57D732DB30B5FAF05859A5CABAA34A5C66426D,
+	PlaySequenceAnimationStep_get_DisplayName_m6A08F4BC130D432B17A470A08CD224F5F68ABF68,
+	PlaySequenceAnimationStep_AddTweenToSequence_m8F1EA702F7E169492E580CCC16A4BE9D0FB10F3B,
+	PlaySequenceAnimationStep_GetDisplayNameForEditor_mC772A6ED627B739698618F06B37BE113C5F83032,
+	PlaySequenceAnimationStep_SetTarget_mA359A99AF6C57315F0CB904CC8BFA96765B04A58,
+	PlaySequenceAnimationStep__ctor_mFEEA9F819FDF951F36FAA6026D14CF22F779636F,
+	DOTweenExtensions_DOText_mBD4A3ED966C8549B139AA74915146C0FB24F3FE0,
+	U3CU3Ec__DisplayClass0_0__ctor_mDD32E061A7872B3375CB9CA9778AD02026A6F370,
+	U3CU3Ec__DisplayClass0_0_U3CDOTextU3Eb__0_mCE5C0748D5065507F63E96D245375732E16EC839,
+	U3CU3Ec__DisplayClass0_0_U3CDOTextU3Eb__1_mEC43FAFDB22F5E9DAD258DEDF363EB8F46A89D37,
+	StringExtensions_Truncate_m75D6DA027BB76CFF58123EC59A960AD6A325001B,
+};
+static const int32_t s_InvokerIndices[265] = 
+{
+	13429,
+	0,
+	10892,
+	10933,
+	10892,
+	10892,
+	10892,
+	10892,
+	10892,
+	10892,
+	10892,
+	11024,
+	11024,
+	11024,
+	11024,
+	11024,
+	11024,
+	8709,
+	11024,
+	11024,
+	11024,
+	8746,
+	8746,
+	8746,
+	10892,
+	10892,
+	6815,
+	6815,
+	11024,
+	8684,
+	11024,
+	10933,
+	10892,
+	11024,
+	10892,
+	11024,
+	11024,
+	11024,
+	11024,
+	11024,
+	11024,
+	11024,
+	11024,
+	11024,
+	7581,
+	11024,
+	7581,
+	10862,
+	10933,
+	8709,
+	8684,
+	11024,
+	2067,
+	2067,
+	2067,
+	8709,
+	0,
+	7581,
+	7581,
+	10862,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	15066,
+	10892,
+	3038,
+	0,
+	11024,
+	10892,
+	11011,
+	11024,
+	10892,
+	11011,
+	11024,
+	10892,
+	10892,
+	3038,
+	11024,
+	10892,
+	0,
+	0,
+	3038,
+	11024,
+	10892,
+	10892,
+	3038,
+	11024,
+	10892,
+	10892,
+	3038,
+	11024,
+	10892,
+	10892,
+	3038,
+	11024,
+	10892,
+	10892,
+	3038,
+	0,
+	11024,
+	10892,
+	10892,
+	11013,
+	11024,
+	10892,
+	10892,
+	11013,
+	11024,
+	10892,
+	3038,
+	0,
+	11024,
+	10892,
+	10892,
+	11024,
+	10892,
+	10892,
+	11024,
+	10892,
+	10892,
+	3038,
+	11024,
+	10892,
+	10892,
+	3038,
+	11024,
+	10892,
+	10892,
+	3038,
+	11024,
+	10892,
+	10892,
+	3038,
+	0,
+	11024,
+	10892,
+	11013,
+	11024,
+	10892,
+	10892,
+	11013,
+	11024,
+	10892,
+	10892,
+	3038,
+	11024,
+	10892,
+	10892,
+	3038,
+	11024,
+	10892,
+	10892,
+	3038,
+	11024,
+	10892,
+	10892,
+	3038,
+	11024,
+	10892,
+	10892,
+	3038,
+	11024,
+	10940,
+	10940,
+	10862,
+	0,
+	10933,
+	0,
+	6810,
+	11024,
+	11024,
+	11024,
+	11024,
+	11024,
+	10892,
+	8709,
+	6810,
+	6815,
+	11024,
+	11024,
+	11024,
+	11024,
+	11024,
+	11024,
+	11024,
+	11024,
+	10940,
+	8753,
+	11024,
+	10940,
+	8753,
+	15107,
+	11024,
+	6815,
+	11024,
+	7581,
+	10892,
+	8709,
+	11024,
+	10892,
+	8709,
+	6810,
+	11024,
+	11024,
+	10940,
+	8753,
+	11024,
+	11024,
+	11024,
+	11024,
+	11024,
+	11024,
+	10940,
+	8753,
+	11024,
+	10940,
+	8753,
+	10892,
+	8709,
+	11024,
+	8709,
+	6810,
+	11024,
+	11024,
+	10892,
+	8709,
+	6810,
+	8709,
+	11024,
+	11442,
+	11024,
+	10892,
+	8709,
+	12796,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[2] = 
+{
+	{ 0x06000002, { 0, 1 } },
+	{ 0x06000039, { 1, 2 } },
+};
+extern const uint32_t g_rgctx_CustomEase_ApplyTo_TisT_tCA3B85ED54FA0D4297F54C83059C7F6E7B89485A_mD0BCE6A771C58A50F958194430A15C9B996E74AD;
+extern const uint32_t g_rgctx_TweenSettingsExtensions_SetEase_TisT_t49BAFA8894D47640C44C1647ADA29DCA0D4CA4CA_m509C085C615E4C9A00695B2A4ACD8BEA38BFFD3C;
+extern const uint32_t g_rgctx_TweenSettingsExtensions_SetEase_TisT_t49BAFA8894D47640C44C1647ADA29DCA0D4CA4CA_m08EDCC3DE27DC0BCDAF0159BBD8904C40E5D6BD3;
+static const Il2CppRGCTXDefinition s_rgctxValues[3] = 
+{
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CustomEase_ApplyTo_TisT_tCA3B85ED54FA0D4297F54C83059C7F6E7B89485A_mD0BCE6A771C58A50F958194430A15C9B996E74AD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TweenSettingsExtensions_SetEase_TisT_t49BAFA8894D47640C44C1647ADA29DCA0D4CA4CA_m509C085C615E4C9A00695B2A4ACD8BEA38BFFD3C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TweenSettingsExtensions_SetEase_TisT_t49BAFA8894D47640C44C1647ADA29DCA0D4CA4CA_m08EDCC3DE27DC0BCDAF0159BBD8904C40E5D6BD3 },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_BrunoMikoski_AnimationSequencer_CodeGenModule;
+const Il2CppCodeGenModule g_BrunoMikoski_AnimationSequencer_CodeGenModule = 
+{
+	"BrunoMikoski.AnimationSequencer.dll",
+	265,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	2,
+	s_rgctxIndices,
+	3,
+	s_rgctxValues,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

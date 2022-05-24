@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SettingsData
   m_EditorClassIdentifier: 
   selectedDefinition: 
-  selectedStorageModule: Http
+  selectedStorageModule: Google
   offlineMode: 0
   zipCompressLevel: 9
   definitions: []
