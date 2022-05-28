@@ -1,7 +1,18 @@
-﻿namespace ProGraphGroup.Projects.TruckWorld.UI
+﻿using UnityEngine;
+using UnityEngine.UIElements;
+
+public class MainView : MonoBehaviour
 {
-    public class MainView
+    [SerializeField]
+    VisualTreeAsset m_ListEntryTemplate;
+
+    void OnEnable()
     {
-        
+        // The UXML is already instantiated by the UIDocument component
+        var uiDocument = GetComponent<UIDocument>();
+
+        // Initialize the character list controller
+        var characterListController = new CharacterListController();
+        characterListController.InitializeCharacterList(uiDocument.rootVisualElement, m_ListEntryTemplate);
     }
 }

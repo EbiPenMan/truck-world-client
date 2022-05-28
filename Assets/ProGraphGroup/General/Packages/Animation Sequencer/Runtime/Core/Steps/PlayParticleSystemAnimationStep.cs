@@ -7,8 +7,8 @@ namespace BrunoMikoski.AnimationSequencer
     [Serializable]
     public sealed class PlayParticleSystemAnimationStep : AnimationStepBase
     {
-        [SerializeField]
-        public ParticleSystem particleSystem;
+        // [SerializeField]
+        // public ParticleSystem particleSystem;
 
         [SerializeField]
         public float duration = 1;
@@ -28,7 +28,7 @@ namespace BrunoMikoski.AnimationSequencer
             //
             animationSequence.AppendCallback(() =>
             {
-                particleSystem.Play();
+                // particleSystem.Play();
             });
             
             animationSequence.AppendInterval(duration);
@@ -39,20 +39,20 @@ namespace BrunoMikoski.AnimationSequencer
         {
             if (stopEmittingWhenOver)
             {
-                particleSystem.Stop();
+                // particleSystem.Stop();
             }
         }
 
-        public void SetTarget(ParticleSystem newTarget)
-        {
-            particleSystem = newTarget;
-        }
+        // public void SetTarget(ParticleSystem newTarget)
+        // {
+        //     particleSystem = newTarget;
+        // }
 
         public override string GetDisplayNameForEditor(int index)
         {
             string display = "NULL";
-            if (particleSystem != null)
-                display = particleSystem.name;
+            // if (particleSystem != null)
+                // display = particleSystem.name;
             return $"{index}. Play {display} particle system";
         }
 

@@ -15,7 +15,7 @@ using DOTweenSettings = DG.Tweening.Core.DOTweenSettings;
 #if true // UI_MARKER
 using UnityEngine.UI;
 #endif
-#if false // TEXTMESHPRO_MARKER
+#if true // TEXTMESHPRO_MARKER
     using TMPro;
 #endif
 
@@ -38,10 +38,10 @@ namespace DG.DOTweenEditor
 
         static readonly Dictionary<DOTweenAnimation.AnimationType, Type[]> _AnimationTypeToComponent = new Dictionary<DOTweenAnimation.AnimationType, Type[]>() {
             { DOTweenAnimation.AnimationType.Move, new[] {
-#if true // PHYSICS_MARKER
+#if false // PHYSICS_MARKER
                 typeof(Rigidbody),
 #endif
-#if true // PHYSICS2D_MARKER
+#if false // PHYSICS2D_MARKER
                 typeof(Rigidbody2D),
 #endif
 #if true // UI_MARKER
@@ -50,10 +50,10 @@ namespace DG.DOTweenEditor
                 typeof(Transform)
             }},
             { DOTweenAnimation.AnimationType.Rotate, new[] {
-#if true // PHYSICS_MARKER
+#if false // PHYSICS_MARKER
                 typeof(Rigidbody),
 #endif
-#if true // PHYSICS2D_MARKER
+#if false // PHYSICS2D_MARKER
                 typeof(Rigidbody2D),
 #endif
                 typeof(Transform)
@@ -111,15 +111,15 @@ namespace DG.DOTweenEditor
 #endif
         };
 
-#if false // TK2D_MARKER
+#if true // TK2D_MARKER
         static readonly Dictionary<DOTweenAnimation.AnimationType, Type[]> _Tk2dAnimationTypeToComponent = new Dictionary<DOTweenAnimation.AnimationType, Type[]>() {
-            { DOTweenAnimation.AnimationType.Scale, new[] { typeof(tk2dBaseSprite), typeof(tk2dTextMesh) } },
-            { DOTweenAnimation.AnimationType.Color, new[] { typeof(tk2dBaseSprite), typeof(tk2dTextMesh) } },
-            { DOTweenAnimation.AnimationType.Fade, new[] { typeof(tk2dBaseSprite), typeof(tk2dTextMesh) } },
-            { DOTweenAnimation.AnimationType.Text, new[] { typeof(tk2dTextMesh) } }
+            // { DOTweenAnimation.AnimationType.Scale, new[] { typeof(tk2dBaseSprite), typeof(tk2dTextMesh) } },
+            // { DOTweenAnimation.AnimationType.Color, new[] { typeof(tk2dBaseSprite), typeof(tk2dTextMesh) } },
+            // { DOTweenAnimation.AnimationType.Fade, new[] { typeof(tk2dBaseSprite), typeof(tk2dTextMesh) } },
+            // { DOTweenAnimation.AnimationType.Text, new[] { typeof(tk2dTextMesh) } }
         };
 #endif
-#if false // TEXTMESHPRO_MARKER
+#if true // TEXTMESHPRO_MARKER
         static readonly Dictionary<DOTweenAnimation.AnimationType, Type[]> _TMPAnimationTypeToComponent = new Dictionary<DOTweenAnimation.AnimationType, Type[]>() {
             { DOTweenAnimation.AnimationType.Color, new[] { typeof(TextMeshPro), typeof(TextMeshProUGUI) } },
             { DOTweenAnimation.AnimationType.Fade, new[] { typeof(TextMeshPro), typeof(TextMeshProUGUI) } },
@@ -136,10 +136,10 @@ namespace DG.DOTweenEditor
 #if true // UI_MARKER
             "Text",
 #endif
-#if false // TK2D_MARKER
+#if true // TK2D_MARKER
             "Text",
 #endif
-#if false // TEXTMESHPRO_MARKER
+#if true // TEXTMESHPRO_MARKER
             "Text",
 #endif
 #if true // UI_MARKER
@@ -587,7 +587,7 @@ namespace DG.DOTweenEditor
 
             Component srcTarget;
             // First check for external plugins
-#if false // TK2D_MARKER
+#if true // TK2D_MARKER
             if (_Tk2dAnimationTypeToComponent.ContainsKey(_src.animationType)) {
                 foreach (Type t in _Tk2dAnimationTypeToComponent[_src.animationType]) {
                     srcTarget = targetGO.GetComponent(t);
@@ -599,7 +599,7 @@ namespace DG.DOTweenEditor
                 }
             }
 #endif
-#if false // TEXTMESHPRO_MARKER
+#if true // TEXTMESHPRO_MARKER
             if (_TMPAnimationTypeToComponent.ContainsKey(_src.animationType)) {
                 foreach (Type t in _TMPAnimationTypeToComponent[_src.animationType]) {
                     srcTarget = targetGO.GetComponent(t);

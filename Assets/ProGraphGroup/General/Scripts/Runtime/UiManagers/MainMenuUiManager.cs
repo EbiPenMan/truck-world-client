@@ -20,7 +20,7 @@ namespace ProGraphGroup.General.UiManagers
 
         private async Task Awake()
         {
-            ProfileManager.Instance.onSynceMyAccount.AddListener(updateMyAccountUi);
+            // ProfileManager.Instance.onSynceMyAccount.AddListener(updateMyAccountUi);
             // HeroManager.Instance.onSynceMyHeroes.AddListener(updateEnergyMaxUi);
         }
 
@@ -35,7 +35,7 @@ namespace ProGraphGroup.General.UiManagers
 
         private void updateMyAccountUi()
         {
-            txt_playerName.text = ProfileManager.Instance.GetMyAccount().User.DisplayName;
+            // txt_playerName.text = ProfileManager.Instance.GetMyAccount().User.DisplayName;
             // txt_wallet_current_energy.text = ProfileManager.Instance.GetMyWallet().Energy.ToString();
         }
         private void updateEnergyMaxUi()

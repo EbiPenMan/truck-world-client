@@ -1,6 +1,6 @@
 ﻿using System;
 using Cysharp.Threading.Tasks;
-using Nakama;
+// using Nakama;
 using ProGraphGroup.General.Models;
 using ProGraphGroup.General.Utility;
 
@@ -10,9 +10,9 @@ namespace ProGraphGroup.General.Server.LoginPlatform.Base
     {
         protected float loginSessionTimeout = 5;
 
-        public abstract UniTask<Tuple<ISession, ErrorModel>> SingIn(Client client);
-        public abstract UniTask<Tuple<bool, ErrorModel>> SingOut(Client client);
-        public abstract UniTask<Tuple<bool, ErrorModel>> Link(Client client, ISession session);
-        public abstract UniTask<Tuple<bool, ErrorModel>> UnLink(Client client, ISession session);
+        // public abstract UniTask<Tuple<ISession, ErrorModel>> SingIn(Client client);
+        // public abstract UniTask<Tuple<bool, ErrorModel>> SingOut(Client client);
+        // public abstract UniTask<Tuple<bool, ErrorModel>> Link(Client client, ISession session);
+        // public abstract UniTask<Tuple<bool, ErrorModel>> UnLink(Client client, ISession session);
     }
 }

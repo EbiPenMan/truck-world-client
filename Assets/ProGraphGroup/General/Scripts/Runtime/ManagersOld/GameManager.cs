@@ -18,9 +18,9 @@ namespace ProGraphGroup.General.ManagersOld
             // await TransmissionManager.Instance.Show();
             // await ServerManager.Instance.Init();
             
-            var aa = await ProfileManager.Instance.GetMyAccountAsync();
-            _logger.Info("User Id: ", aa.User.Id);
-            _logger.Info("Username: ", aa.User.Username);
+            // var aa = await ProfileManager.Instance.GetMyAccountAsync();
+            // _logger.Info("User Id: ", aa.User.Id);
+            // _logger.Info("Username: ", aa.User.Username);
             // var bb = await HeroManager.Instance.GetMyHeroAsync();
             // await ShopManager.Instance.GetMyHeroes();
             // await TransmissionManager.Instance.Show();

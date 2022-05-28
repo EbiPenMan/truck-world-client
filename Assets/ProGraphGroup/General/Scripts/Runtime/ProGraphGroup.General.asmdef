@@ -15,7 +15,8 @@
         "UniTask.TextMeshPro",
         "UniTask.Addressables",
         "BrunoMikoski.AnimationSequencer",
-        "Unity.TextMeshPro"
+        "Unity.TextMeshPro",
+        "NakamaRuntime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

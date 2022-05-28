@@ -41,20 +41,20 @@ namespace ProGraphGroup.General.Utility
             else
             {
                 Debug.Log("Loading From Outside: " + picturePathAndName);
-                using (UnityWebRequest www = UnityWebRequestTexture.GetTexture(picturePathAndName))
-                {
-                    yield return www.SendWebRequest();
-                    try
-                    {
-                        Texture2D texture2D = DownloadHandlerTexture.GetContent(www);
-                        onDone(texture2D);
-                    }
-                    catch (Exception e)
-                    {
-                        onError(new ErrorModel(e.HResult, e.Message));
-                        yield break;
-                    }
-                }
+                // using (UnityWebRequest www = UnityWebRequestTexture.GetTexture(picturePathAndName))
+                // {
+                //     yield return www.SendWebRequest();
+                //     try
+                //     {
+                //         Texture2D texture2D = DownloadHandlerTexture.GetContent(www);
+                //         onDone(texture2D);
+                //     }
+                //     catch (Exception e)
+                //     {
+                //         onError(new ErrorModel(e.HResult, e.Message));
+                //         yield break;
+                //     }
+                // }
 
                 yield return true;
             }

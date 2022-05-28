@@ -24,11 +24,15 @@ namespace ProGraphGroup.General.Server.LoginPlatform
             _uniqueIdentifier = PlayerPrefs.GetString("DeviceLoginPlatform_uniqueIdentifier");
             if (string.IsNullOrEmpty(_uniqueIdentifier))
                 _uniqueIdentifier = SystemInfo.deviceUniqueIdentifier;
-
+        
             var cts = new CancellationTokenSource();
             cts.CancelAfterSlim(TimeSpan.FromSeconds(loginSessionTimeout)); // 5sec timeout.
             try
             {
+                ISession session = await client.AuthenticateCustomAsync(_uniqueIdentifier, null, true, null, null, cts);
+
+                
+                
                 ISession session = await client.AuthenticateDeviceAsync(_uniqueIdentifier, null, true, null, null, cts);
                 PlayerPrefs.SetString("DeviceLoginPlatform_uniqueIdentifier", _uniqueIdentifier);
                 PlayerPrefs.Save();
@@ -42,7 +46,7 @@ namespace ProGraphGroup.General.Server.LoginPlatform
                 return new Tuple<ISession, ErrorModel>(null, new ErrorModel(0, e.Message));
             }
         }
-
+        
         public override async UniTask<Tuple<bool, ErrorModel>> SingOut(Client client)
         {
             PlayerPrefs.DeleteKey("DeviceLoginPlatform_uniqueIdentifier");
@@ -50,13 +54,13 @@ namespace ProGraphGroup.General.Server.LoginPlatform
             _logger.Info("SingOut Device Successful.", "uniqueIdentifier : " + _uniqueIdentifier, new[] {"SingOut"});
             return new Tuple<bool, ErrorModel>(true, null);
         }
-
+        
         public override async UniTask<Tuple<bool, ErrorModel>> Link(Client client, ISession session)
         {
             _uniqueIdentifier = PlayerPrefs.GetString("DeviceLoginPlatform_uniqueIdentifier");
             if (string.IsNullOrEmpty(_uniqueIdentifier))
                 _uniqueIdentifier = SystemInfo.deviceUniqueIdentifier;
-
+        
             var cts = new CancellationTokenSource();
             cts.CancelAfterSlim(TimeSpan.FromSeconds(loginSessionTimeout)); // 5sec timeout.
             try
@@ -73,13 +77,13 @@ namespace ProGraphGroup.General.Server.LoginPlatform
                 return new Tuple<bool, ErrorModel>(false, new ErrorModel(0, e.Message));
             }
         }
-
+        
         public override async UniTask<Tuple<bool, ErrorModel>> UnLink(Client client, ISession session)
         {
             _uniqueIdentifier = PlayerPrefs.GetString("DeviceLoginPlatform_uniqueIdentifier");
             if (string.IsNullOrEmpty(_uniqueIdentifier))
                 _uniqueIdentifier = SystemInfo.deviceUniqueIdentifier;
-
+        
             var cts = new CancellationTokenSource();
             cts.CancelAfterSlim(TimeSpan.FromSeconds(loginSessionTimeout)); // 5sec timeout.
             try
@@ -97,5 +101,6 @@ namespace ProGraphGroup.General.Server.LoginPlatform
                 return new Tuple<bool, ErrorModel>(false, new ErrorModel(0, e.Message));
             }
         }
+        
     }
 }
